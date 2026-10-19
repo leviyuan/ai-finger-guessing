@@ -1,0 +1,475 @@
+{
+  "completed_at": "2026-09-18T09:49:05.339770+00:00",
+  "layout": [
+    1,
+    10,
+    11,
+    12,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "matches": [
+    {
+      "a_delta": 0,
+      "a_id": 1,
+      "a_move": "剪刀",
+      "a_name": "Claude",
+      "a_result": "平",
+      "b_delta": 0,
+      "b_id": 9,
+      "b_move": "剪刀",
+      "b_name": "豆包",
+      "b_result": "平"
+    },
+    {
+      "a_delta": -1,
+      "a_id": 10,
+      "a_move": "剪刀",
+      "a_name": "DeepSeek",
+      "a_result": "负",
+      "b_delta": 1,
+      "b_id": 8,
+      "b_move": "石头",
+      "b_name": "MiniMax",
+      "b_result": "胜"
+    },
+    {
+      "a_delta": -1,
+      "a_id": 11,
+      "a_move": "布",
+      "a_name": "GLM",
+      "a_result": "负",
+      "b_delta": 1,
+      "b_id": 7,
+      "b_move": "剪刀",
+      "b_name": "Meta",
+      "b_result": "胜"
+    },
+    {
+      "a_delta": 1,
+      "a_id": 12,
+      "a_move": "石头",
+      "a_name": "GPT-6",
+      "a_result": "胜",
+      "b_delta": -1,
+      "b_id": 6,
+      "b_move": "剪刀",
+      "b_name": "Qwen",
+      "b_result": "负"
+    },
+    {
+      "a_delta": -1,
+      "a_id": 2,
+      "a_move": "石头",
+      "a_name": "Kimi",
+      "a_result": "负",
+      "b_delta": 1,
+      "b_id": 5,
+      "b_move": "布",
+      "b_name": "Grok",
+      "b_result": "胜"
+    },
+    {
+      "a_delta": 1,
+      "a_id": 3,
+      "a_move": "剪刀",
+      "a_name": "腾讯 HY4",
+      "a_result": "胜",
+      "b_delta": -1,
+      "b_id": 4,
+      "b_move": "布",
+      "b_name": "Gemini",
+      "b_result": "负"
+    }
+  ],
+  "moves": {
+    "claude": "剪刀",
+    "deepseek": "剪刀",
+    "doubao": "剪刀",
+    "gemini": "布",
+    "glm": "布",
+    "gpt": "石头",
+    "grok": "布",
+    "hunyuan": "剪刀",
+    "kimi": "石头",
+    "meta": "剪刀",
+    "minimax": "石头",
+    "qwen": "剪刀"
+  },
+  "pairs": [
+    [
+      1,
+      9
+    ],
+    [
+      10,
+      8
+    ],
+    [
+      11,
+      7
+    ],
+    [
+      12,
+      6
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      3,
+      4
+    ]
+  ],
+  "responses": [
+    {
+      "attempt": 1,
+      "cost_usd": null,
+      "duration_ms": 7634,
+      "finish_reason": null,
+      "move": "剪刀",
+      "output": "{\"move\":\"剪刀\"}",
+      "parser": {
+        "candidate_count": 1,
+        "mode": "last_legal_json_object"
+      },
+      "player_key": "claude",
+      "reported_effort": "high",
+      "reused": false,
+      "round": 15,
+      "run_id": "agent_e680d4d7-24e5-4f88-b0c8-1e696b1021f1",
+      "session_id": "9037fa1e-ef55-48b2-8064-473a6fcbf40e",
+      "status": "completed",
+      "usage": {
+        "cache_creation_input_tokens": 49238,
+        "cache_read_input_tokens": 0,
+        "input_tokens": 2,
+        "output_tokens": 13,
+        "total_tokens": 49253
+      }
+    },
+    {
+      "attempt": 1,
+      "cost_usd": null,
+      "duration_ms": 8933,
+      "finish_reason": null,
+      "move": "剪刀",
+      "output": "{\"move\":\"剪刀\"}",
+      "parser": {
+        "candidate_count": 1,
+        "mode": "last_legal_json_object"
+      },
+      "player_key": "doubao",
+      "reported_effort": "default",
+      "reused": false,
+      "round": 15,
+      "run_id": "agent_18429b6d-9c5c-4baf-a773-54ea78ff0ea7",
+      "session_id": "5ab1b111-bfea-4098-b69e-501199f4a0e1",
+      "status": "completed",
+      "usage": {
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 32056,
+        "input_tokens": 781,
+        "output_tokens": 6,
+        "total_tokens": 32843
+      }
+    },
+    {
+      "attempt": 1,
+      "cost_usd": null,
+      "duration_ms": 9098,
+      "finish_reason": null,
+      "move": "石头",
+      "output": "{\"move\":\"石头\"}",
+      "parser": {
+        "candidate_count": 1,
+        "mode": "last_legal_json_object"
+      },
+      "player_key": "minimax",
+      "reported_effort": "default",
+      "reused": false,
+      "round": 15,
+      "run_id": "agent_e0a61823-d452-4872-a7dc-4e91e1988331",
+      "session_id": "1fa6651e-45d7-46ab-a262-1096918a04da",
+      "status": "completed",
+      "usage": {
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 31600,
+        "input_tokens": 604,
+        "output_tokens": 32,
+        "total_tokens": 32236
+      }
+    },
+    {
+      "attempt": 1,
+      "cost_usd": null,
+      "duration_ms": 5000,
+      "finish_reason": null,
+      "move": "剪刀",
+      "output": "{\"move\":\"剪刀\"}",
+      "parser": {
+        "candidate_count": 1,
+        "mode": "last_legal_json_object"
+      },
+      "player_key": "deepseek",
+      "reported_effort": "max",
+      "reused": false,
+      "round": 15,
+      "run_id": "agent_142f2c75-c8f9-4113-bb1a-df1bbccc28f4",
+      "session_id": "79737ad4-7795-45c8-89e8-488056831537",
+      "status": "completed",
+      "usage": {
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 27136,
+        "input_tokens": 647,
+        "output_tokens": 6,
+        "total_tokens": 27789
+      }
+    },
+    {
+      "attempt": 1,
+      "cost_usd": null,
+      "duration_ms": 8204,
+      "finish_reason": null,
+      "move": "剪刀",
+      "output": "{\"move\":\"剪刀\"}",
+      "parser": {
+        "candidate_count": 1,
+        "mode": "last_legal_json_object"
+      },
+      "player_key": "meta",
+      "reported_effort": "xhigh",
+      "reused": false,
+      "round": 15,
+      "run_id": "agent_3eaac49e-d427-4be6-ad8f-82929b851b4c",
+      "session_id": "42c0a4c0-6a6c-4139-9410-1cec2d75ffb9",
+      "status": "completed",
+      "usage": {
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "input_tokens": 31592,
+        "output_tokens": 165,
+        "total_tokens": 31757
+      }
+    },
+    {
+      "attempt": 1,
+      "cost_usd": null,
+      "duration_ms": 17299,
+      "finish_reason": null,
+      "move": "布",
+      "output": "{\"move\":\"布\"}",
+      "parser": {
+        "candidate_count": 1,
+        "mode": "last_legal_json_object"
+      },
+      "player_key": "glm",
+      "reported_effort": "max",
+      "reused": false,
+      "round": 15,
+      "run_id": "agent_bdd42de5-3062-48dc-af96-fda7de9e0756",
+      "session_id": "3f4275d1-f8e6-47bf-bc1f-a8f61d331a43",
+      "status": "completed",
+      "usage": {
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 31424,
+        "input_tokens": 635,
+        "output_tokens": 7,
+        "total_tokens": 32066
+      }
+    },
+    {
+      "attempt": 1,
+      "cost_usd": null,
+      "duration_ms": 14343,
+      "finish_reason": null,
+      "move": "剪刀",
+      "output": "{\"move\":\"剪刀\"}",
+      "parser": {
+        "candidate_count": 1,
+        "mode": "last_legal_json_object"
+      },
+      "player_key": "qwen",
+      "reported_effort": "xhigh",
+      "reused": false,
+      "round": 15,
+      "run_id": "agent_db37f7d1-c74b-4012-ba11-ca93a219f014",
+      "session_id": "221f85e3-ed3b-4bbf-898b-15669251e2fe",
+      "status": "completed",
+      "usage": {
+        "cache_creation_input_tokens": 777,
+        "cache_read_input_tokens": 34588,
+        "input_tokens": 6,
+        "output_tokens": 343,
+        "total_tokens": 35714
+      }
+    },
+    {
+      "attempt": 1,
+      "cost_usd": null,
+      "duration_ms": 121020,
+      "finish_reason": null,
+      "move": "石头",
+      "output": "{\"move\":\"石头\"}",
+      "parser": {
+        "candidate_count": 1,
+        "mode": "last_legal_json_object"
+      },
+      "player_key": "gpt",
+      "reported_effort": "high",
+      "reused": false,
+      "round": 15,
+      "run_id": "agent_5bdf1a07-801a-4030-8c52-60c3b4a37814",
+      "session_id": "01a0b3c3-d676-7013-97d1-7a36cbde12a6",
+      "status": "completed",
+      "usage": {
+        "cache_read_input_tokens": 23296,
+        "input_tokens": 24313,
+        "output_tokens": 10,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 24323
+      }
+    },
+    {
+      "attempt": 2,
+      "cost_usd": null,
+      "duration_ms": 42671,
+      "finish_reason": null,
+      "move": "石头",
+      "output": "{\"move\":\"石头\"}",
+      "parser": {
+        "candidate_count": 1,
+        "mode": "last_legal_json_object"
+      },
+      "player_key": "kimi",
+      "reported_effort": "high",
+      "reused": false,
+      "round": 15,
+      "run_id": "agent_a6879d3e-59a3-431b-8ea5-0775b85e228e",
+      "session_id": "01a0b3ea-6f87-7091-9497-732a47ec3e6d",
+      "status": "completed",
+      "usage": {
+        "cache_read_input_tokens": 0,
+        "input_tokens": 12175,
+        "output_tokens": 258,
+        "reasoning_output_tokens": 120,
+        "total_tokens": 12433
+      }
+    },
+    {
+      "attempt": 1,
+      "cost_usd": null,
+      "duration_ms": 7197,
+      "finish_reason": null,
+      "move": "布",
+      "output": "{\"move\":\"布\"}",
+      "parser": {
+        "candidate_count": 1,
+        "mode": "last_legal_json_object"
+      },
+      "player_key": "grok",
+      "reported_effort": "high",
+      "reused": false,
+      "round": 15,
+      "run_id": "agent_cef37835-ebd3-40ee-bd5a-73a6556d62c7",
+      "session_id": "01a0b2d7-2bf2-7632-9f06-6257a801ec7a",
+      "status": "completed",
+      "usage": {
+        "cache_read_input_tokens": 27264,
+        "input_tokens": 28097,
+        "output_tokens": 81,
+        "reasoning_output_tokens": 75,
+        "total_tokens": 28178
+      }
+    },
+    {
+      "attempt": 1,
+      "cost_usd": null,
+      "duration_ms": 10606,
+      "finish_reason": null,
+      "move": "剪刀",
+      "output": "{\"move\":\"剪刀\"}",
+      "parser": {
+        "candidate_count": 1,
+        "mode": "last_legal_json_object"
+      },
+      "player_key": "hunyuan",
+      "reported_effort": "high",
+      "reused": false,
+      "round": 15,
+      "run_id": "agent_5660289f-ec22-4f63-9c67-7cb7287a15d8",
+      "session_id": "ab6c4a7a-6154-4699-8c74-f63e2c30a467",
+      "status": "completed",
+      "usage": {
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 27648,
+        "input_tokens": 790,
+        "output_tokens": 113,
+        "total_tokens": 28551
+      }
+    },
+    {
+      "attempt": 1,
+      "cost_usd": null,
+      "duration_ms": 9570,
+      "finish_reason": null,
+      "move": "布",
+      "output": "{\"move\":\"布\"}",
+      "parser": {
+        "candidate_count": 1,
+        "mode": "last_legal_json_object"
+      },
+      "player_key": "gemini",
+      "reported_effort": "high",
+      "reused": false,
+      "round": 15,
+      "run_id": "agent_994eccbb-fe97-450b-a3ea-6d2d6427e134",
+      "session_id": "5b5b54f8-6ddd-471c-bd43-fb9625fd428a",
+      "status": "completed",
+      "usage": {
+        "cache_creation_input_tokens": 28535,
+        "cache_read_input_tokens": 28535,
+        "input_tokens": 0,
+        "output_tokens": 5,
+        "total_tokens": 57075
+      }
+    }
+  ],
+  "round": 15,
+  "scores_after": {
+    "claude": -1,
+    "deepseek": 0,
+    "doubao": -3,
+    "gemini": -1,
+    "glm": 3,
+    "gpt": 2,
+    "grok": -2,
+    "hunyuan": -1,
+    "kimi": 3,
+    "meta": 3,
+    "minimax": -2,
+    "qwen": -1
+  },
+  "scores_before": {
+    "claude": -1,
+    "deepseek": 1,
+    "doubao": -3,
+    "gemini": 0,
+    "glm": 4,
+    "gpt": 1,
+    "grok": -3,
+    "hunyuan": -2,
+    "kimi": 4,
+    "meta": 2,
+    "minimax": -3,
+    "qwen": 0
+  },
+  "zero_sum": true
+}

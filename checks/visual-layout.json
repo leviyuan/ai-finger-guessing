@@ -1,0 +1,42 @@
+[
+  {
+    "id": "01-qwen",
+    "width": 1200,
+    "height": 1500,
+    "footer_gap": 19.3125,
+    "horizontal_overflow": false,
+    "images_ok": true
+  },
+  {
+    "id": "02-deepseek",
+    "width": 1200,
+    "height": 1500,
+    "footer_gap": 19.3125,
+    "horizontal_overflow": false,
+    "images_ok": true
+  },
+  {
+    "id": "03-glm",
+    "width": 1200,
+    "height": 1500,
+    "footer_gap": 19.3125,
+    "horizontal_overflow": false,
+    "images_ok": true
+  },
+  {
+    "id": "04-meta",
+    "width": 1200,
+    "height": 1500,
+    "footer_gap": 19.3125,
+    "horizontal_overflow": false,
+    "images_ok": true
+  },
+  {
+    "id": "05-gpt-claude",
+    "width": 1200,
+    "height": 1500,
+    "footer_gap": 19.3125,
+    "horizontal_overflow": false,
+    "images_ok": true
+  }
+]

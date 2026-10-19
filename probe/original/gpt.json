@@ -1,0 +1,21 @@
+{
+  "conclusion": "停止重复石头，改用布。",
+  "cost_usd": null,
+  "duration_ms": 150152,
+  "effort": "high",
+  "model": "gpt-6-astra",
+  "move": "布",
+  "player_key": "gpt",
+  "raw_output": "{\"reason\":\"前22轮石头16次；最近8轮全是石头，2胜2平4负；固定石头得分2，实际少3分。\",\"conclusion\":\"停止重复石头，改用布。\",\"move\":\"布\"}",
+  "reason": "前22轮石头16次；最近8轮全是石头，2胜2平4负；固定石头得分2，实际少3分。",
+  "run_id": "agent_05b8d40d-ced9-4205-8aba-6c826a9409cf",
+  "session_id": "01a0b3c3-d676-7013-97d1-7a36cbde12a6",
+  "status": "completed",
+  "usage": {
+    "cache_read_input_tokens": 0,
+    "input_tokens": 44957,
+    "output_tokens": 283,
+    "reasoning_output_tokens": 221,
+    "total_tokens": 45240
+  }
+}

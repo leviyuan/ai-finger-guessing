@@ -1,0 +1,13 @@
+{
+  "name": "ai-finger-guessing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Auditable records and illustrated case studies of a 12-model RPS sample",
+  "scripts": {
+    "build:art": "python3 tools/build_visuals.py && node tools/render_cards.cjs",
+    "verify": "python3 tools/verify.py"
+  },
+  "devDependencies": {
+    "playwright-core": "1.63.0"
+  }
+}

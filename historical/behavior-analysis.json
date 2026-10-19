@@ -1,0 +1,5649 @@
+{
+  "run_id": "formal-run-20260918-12x22",
+  "models": {
+    "claude": {
+      "name": "Claude Opus 5",
+      "stay_after": {
+        "胜": {
+          "n": 4,
+          "yes": 0,
+          "rate": 0.0
+        },
+        "负": {
+          "n": 8,
+          "yes": 4,
+          "rate": 0.5
+        },
+        "平": {
+          "n": 9,
+          "yes": 0,
+          "rate": 0.0
+        }
+      },
+      "counter_after": {
+        "胜": {
+          "n": 4,
+          "yes": 0,
+          "rate": 0.0
+        },
+        "负": {
+          "n": 8,
+          "yes": 4,
+          "rate": 0.5
+        },
+        "平": {
+          "n": 9,
+          "yes": 7,
+          "rate": 0.7777777777777778
+        }
+      },
+      "copy_after": {
+        "胜": {
+          "n": 4,
+          "yes": 1,
+          "rate": 0.25
+        },
+        "负": {
+          "n": 8,
+          "yes": 0,
+          "rate": 0.0
+        },
+        "平": {
+          "n": 9,
+          "yes": 0,
+          "rate": 0.0
+        }
+      },
+      "transitions": {
+        "counter_own": 10,
+        "other": 7,
+        "same": 4
+      },
+      "pressure": {
+        "behind": {
+          "n": 10,
+          "moves": {
+            "石头": 4,
+            "布": 4,
+            "剪刀": 2
+          }
+        },
+        "tied": {
+          "n": 10,
+          "moves": {
+            "石头": 2,
+            "布": 4,
+            "剪刀": 4
+          }
+        },
+        "ahead": {
+          "n": 2,
+          "moves": {
+            "石头": 1,
+            "剪刀": 1
+          }
+        }
+      },
+      "same_opponent_adapt": [
+        {
+          "opponent": "GPT-6 Astra",
+          "first_round": 1,
+          "second_round": 12,
+          "first_result": "平",
+          "first_self": "石头",
+          "first_opp": "石头",
+          "second_self": "布",
+          "second_opp": "石头",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": true,
+          "second_result": "胜"
+        },
+        {
+          "opponent": "GLM-5.3",
+          "first_round": 2,
+          "second_round": 13,
+          "first_result": "平",
+          "first_self": "布",
+          "first_opp": "布",
+          "second_self": "剪刀",
+          "second_opp": "石头",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "负"
+        },
+        {
+          "opponent": "DeepSeek V4.1 Flash",
+          "first_round": 3,
+          "second_round": 14,
+          "first_result": "胜",
+          "first_self": "剪刀",
+          "first_opp": "布",
+          "second_self": "剪刀",
+          "second_opp": "石头",
+          "same_move": true,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "负"
+        },
+        {
+          "opponent": "豆包 Seed 2.1 Turbo",
+          "first_round": 4,
+          "second_round": 15,
+          "first_result": "负",
+          "first_self": "石头",
+          "first_opp": "布",
+          "second_self": "剪刀",
+          "second_opp": "剪刀",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "平"
+        },
+        {
+          "opponent": "MiniMax M3",
+          "first_round": 5,
+          "second_round": 16,
+          "first_result": "平",
+          "first_self": "剪刀",
+          "first_opp": "剪刀",
+          "second_self": "石头",
+          "second_opp": "布",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "负"
+        },
+        {
+          "opponent": "Meta Muse Spark 1.2",
+          "first_round": 6,
+          "second_round": 17,
+          "first_result": "负",
+          "first_self": "布",
+          "first_opp": "剪刀",
+          "second_self": "石头",
+          "second_opp": "石头",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "平"
+        },
+        {
+          "opponent": "Qwen 3.8 Max",
+          "first_round": 7,
+          "second_round": 18,
+          "first_result": "胜",
+          "first_self": "石头",
+          "first_opp": "剪刀",
+          "second_self": "布",
+          "second_opp": "布",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": false,
+          "second_result": "平"
+        },
+        {
+          "opponent": "Grok 4.6",
+          "first_round": 8,
+          "second_round": 19,
+          "first_result": "平",
+          "first_self": "布",
+          "first_opp": "布",
+          "second_self": "剪刀",
+          "second_opp": "剪刀",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "平"
+        },
+        {
+          "opponent": "Gemini 3.8 Flash",
+          "first_round": 9,
+          "second_round": 20,
+          "first_result": "负",
+          "first_self": "剪刀",
+          "first_opp": "石头",
+          "second_self": "布",
+          "second_opp": "剪刀",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "负"
+        },
+        {
+          "opponent": "腾讯 HY4 Preview",
+          "first_round": 10,
+          "second_round": 21,
+          "first_result": "胜",
+          "first_self": "布",
+          "first_opp": "石头",
+          "second_self": "布",
+          "second_opp": "剪刀",
+          "same_move": true,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "负"
+        },
+        {
+          "opponent": "Kimi K3",
+          "first_round": 11,
+          "second_round": 22,
+          "first_result": "平",
+          "first_self": "石头",
+          "first_opp": "石头",
+          "second_self": "石头",
+          "second_opp": "布",
+          "same_move": true,
+          "counter_first_opp": false,
+          "counter_second_opp": false,
+          "second_result": "负"
+        }
+      ],
+      "result_transitions": {
+        "平->平": 3,
+        "平->胜": 2,
+        "胜->负": 2,
+        "负->平": 3,
+        "平->负": 4,
+        "负->胜": 2,
+        "胜->平": 2,
+        "负->负": 3
+      },
+      "records": [
+        {
+          "round": 1,
+          "opp_id": 12,
+          "opp": "GPT-6",
+          "move": "石头",
+          "opp_move": "石头",
+          "result": "平",
+          "delta": 0,
+          "score_before": 0
+        },
+        {
+          "round": 2,
+          "opp_id": 11,
+          "opp": "GLM",
+          "move": "布",
+          "opp_move": "布",
+          "result": "平",
+          "delta": 0,
+          "score_before": 0
+        },
+        {
+          "round": 3,
+          "opp_id": 10,
+          "opp": "DeepSeek",
+          "move": "剪刀",
+          "opp_move": "布",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 0
+        },
+        {
+          "round": 4,
+          "opp_id": 9,
+          "opp": "豆包",
+          "move": "石头",
+          "opp_move": "布",
+          "result": "负",
+          "delta": -1,
+          "score_before": 1
+        },
+        {
+          "round": 5,
+          "opp_id": 8,
+          "opp": "MiniMax",
+          "move": "剪刀",
+          "opp_move": "剪刀",
+          "result": "平",
+          "delta": 0,
+          "score_before": 0
+        },
+        {
+          "round": 6,
+          "opp_id": 7,
+          "opp": "Meta",
+          "move": "布",
+          "opp_move": "剪刀",
+          "result": "负",
+          "delta": -1,
+          "score_before": 0
+        },
+        {
+          "round": 7,
+          "opp_id": 6,
+          "opp": "Qwen",
+          "move": "石头",
+          "opp_move": "剪刀",
+          "result": "胜",
+          "delta": 1,
+          "score_before": -1
+        },
+        {
+          "round": 8,
+          "opp_id": 5,
+          "opp": "Grok",
+          "move": "布",
+          "opp_move": "布",
+          "result": "平",
+          "delta": 0,
+          "score_before": 0
+        },
+        {
+          "round": 9,
+          "opp_id": 4,
+          "opp": "Gemini",
+          "move": "剪刀",
+          "opp_move": "石头",
+          "result": "负",
+          "delta": -1,
+          "score_before": 0
+        },
+        {
+          "round": 10,
+          "opp_id": 3,
+          "opp": "腾讯 HY4",
+          "move": "布",
+          "opp_move": "石头",
+          "result": "胜",
+          "delta": 1,
+          "score_before": -1
+        },
+        {
+          "round": 11,
+          "opp_id": 2,
+          "opp": "Kimi",
+          "move": "石头",
+          "opp_move": "石头",
+          "result": "平",
+          "delta": 0,
+          "score_before": 0
+        },
+        {
+          "round": 12,
+          "opp_id": 12,
+          "opp": "GPT-6",
+          "move": "布",
+          "opp_move": "石头",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 0
+        },
+        {
+          "round": 13,
+          "opp_id": 11,
+          "opp": "GLM",
+          "move": "剪刀",
+          "opp_move": "石头",
+          "result": "负",
+          "delta": -1,
+          "score_before": 1
+        },
+        {
+          "round": 14,
+          "opp_id": 10,
+          "opp": "DeepSeek",
+          "move": "剪刀",
+          "opp_move": "石头",
+          "result": "负",
+          "delta": -1,
+          "score_before": 0
+        },
+        {
+          "round": 15,
+          "opp_id": 9,
+          "opp": "豆包",
+          "move": "剪刀",
+          "opp_move": "剪刀",
+          "result": "平",
+          "delta": 0,
+          "score_before": -1
+        },
+        {
+          "round": 16,
+          "opp_id": 8,
+          "opp": "MiniMax",
+          "move": "石头",
+          "opp_move": "布",
+          "result": "负",
+          "delta": -1,
+          "score_before": -1
+        },
+        {
+          "round": 17,
+          "opp_id": 7,
+          "opp": "Meta",
+          "move": "石头",
+          "opp_move": "石头",
+          "result": "平",
+          "delta": 0,
+          "score_before": -2
+        },
+        {
+          "round": 18,
+          "opp_id": 6,
+          "opp": "Qwen",
+          "move": "布",
+          "opp_move": "布",
+          "result": "平",
+          "delta": 0,
+          "score_before": -2
+        },
+        {
+          "round": 19,
+          "opp_id": 5,
+          "opp": "Grok",
+          "move": "剪刀",
+          "opp_move": "剪刀",
+          "result": "平",
+          "delta": 0,
+          "score_before": -2
+        },
+        {
+          "round": 20,
+          "opp_id": 4,
+          "opp": "Gemini",
+          "move": "布",
+          "opp_move": "剪刀",
+          "result": "负",
+          "delta": -1,
+          "score_before": -2
+        },
+        {
+          "round": 21,
+          "opp_id": 3,
+          "opp": "腾讯 HY4",
+          "move": "布",
+          "opp_move": "剪刀",
+          "result": "负",
+          "delta": -1,
+          "score_before": -3
+        },
+        {
+          "round": 22,
+          "opp_id": 2,
+          "opp": "Kimi",
+          "move": "石头",
+          "opp_move": "布",
+          "result": "负",
+          "delta": -1,
+          "score_before": -4
+        }
+      ]
+    },
+    "kimi": {
+      "name": "Kimi K3",
+      "stay_after": {
+        "胜": {
+          "n": 10,
+          "yes": 3,
+          "rate": 0.3
+        },
+        "负": {
+          "n": 7,
+          "yes": 0,
+          "rate": 0.0
+        },
+        "平": {
+          "n": 4,
+          "yes": 1,
+          "rate": 0.25
+        }
+      },
+      "counter_after": {
+        "胜": {
+          "n": 10,
+          "yes": 3,
+          "rate": 0.3
+        },
+        "负": {
+          "n": 7,
+          "yes": 4,
+          "rate": 0.5714285714285714
+        },
+        "平": {
+          "n": 4,
+          "yes": 2,
+          "rate": 0.5
+        }
+      },
+      "copy_after": {
+        "胜": {
+          "n": 10,
+          "yes": 6,
+          "rate": 0.6
+        },
+        "负": {
+          "n": 7,
+          "yes": 3,
+          "rate": 0.42857142857142855
+        },
+        "平": {
+          "n": 4,
+          "yes": 1,
+          "rate": 0.25
+        }
+      },
+      "transitions": {
+        "other": 11,
+        "same": 4,
+        "counter_own": 6
+      },
+      "pressure": {
+        "behind": {
+          "n": 0,
+          "moves": {}
+        },
+        "tied": {
+          "n": 1,
+          "moves": {
+            "石头": 1
+          }
+        },
+        "ahead": {
+          "n": 21,
+          "moves": {
+            "剪刀": 7,
+            "布": 7,
+            "石头": 7
+          }
+        }
+      },
+      "same_opponent_adapt": [
+        {
+          "opponent": "GLM-5.3",
+          "first_round": 1,
+          "second_round": 12,
+          "first_result": "胜",
+          "first_self": "石头",
+          "first_opp": "剪刀",
+          "second_self": "布",
+          "second_opp": "布",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": false,
+          "second_result": "平"
+        },
+        {
+          "opponent": "豆包 Seed 2.1 Turbo",
+          "first_round": 2,
+          "second_round": 13,
+          "first_result": "胜",
+          "first_self": "剪刀",
+          "first_opp": "布",
+          "second_self": "剪刀",
+          "second_opp": "石头",
+          "same_move": true,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "负"
+        },
+        {
+          "opponent": "Meta Muse Spark 1.2",
+          "first_round": 3,
+          "second_round": 14,
+          "first_result": "负",
+          "first_self": "布",
+          "first_opp": "剪刀",
+          "second_self": "石头",
+          "second_opp": "石头",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "平"
+        },
+        {
+          "opponent": "Grok 4.6",
+          "first_round": 4,
+          "second_round": 15,
+          "first_result": "胜",
+          "first_self": "石头",
+          "first_opp": "剪刀",
+          "second_self": "石头",
+          "second_opp": "布",
+          "same_move": true,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "负"
+        },
+        {
+          "opponent": "腾讯 HY4 Preview",
+          "first_round": 5,
+          "second_round": 16,
+          "first_result": "胜",
+          "first_self": "剪刀",
+          "first_opp": "布",
+          "second_self": "剪刀",
+          "second_opp": "布",
+          "same_move": true,
+          "counter_first_opp": true,
+          "counter_second_opp": true,
+          "second_result": "胜"
+        },
+        {
+          "opponent": "GPT-6 Astra",
+          "first_round": 6,
+          "second_round": 17,
+          "first_result": "胜",
+          "first_self": "布",
+          "first_opp": "石头",
+          "second_self": "剪刀",
+          "second_opp": "石头",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": false,
+          "second_result": "负"
+        },
+        {
+          "opponent": "DeepSeek V4.1 Flash",
+          "first_round": 7,
+          "second_round": 18,
+          "first_result": "平",
+          "first_self": "石头",
+          "first_opp": "石头",
+          "second_self": "布",
+          "second_opp": "石头",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": true,
+          "second_result": "胜"
+        },
+        {
+          "opponent": "MiniMax M3",
+          "first_round": 8,
+          "second_round": 19,
+          "first_result": "负",
+          "first_self": "剪刀",
+          "first_opp": "石头",
+          "second_self": "布",
+          "second_opp": "剪刀",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "负"
+        },
+        {
+          "opponent": "Qwen 3.8 Max",
+          "first_round": 9,
+          "second_round": 20,
+          "first_result": "胜",
+          "first_self": "布",
+          "first_opp": "石头",
+          "second_self": "剪刀",
+          "second_opp": "布",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": true,
+          "second_result": "胜"
+        },
+        {
+          "opponent": "Gemini 3.8 Flash",
+          "first_round": 10,
+          "second_round": 21,
+          "first_result": "胜",
+          "first_self": "石头",
+          "first_opp": "剪刀",
+          "second_self": "石头",
+          "second_opp": "布",
+          "same_move": true,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "负"
+        },
+        {
+          "opponent": "Claude Opus 5",
+          "first_round": 11,
+          "second_round": 22,
+          "first_result": "平",
+          "first_self": "石头",
+          "first_opp": "石头",
+          "second_self": "布",
+          "second_opp": "石头",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": true,
+          "second_result": "胜"
+        }
+      ],
+      "result_transitions": {
+        "胜->胜": 4,
+        "胜->负": 4,
+        "负->胜": 6,
+        "胜->平": 2,
+        "平->负": 3,
+        "平->平": 1,
+        "负->平": 1
+      },
+      "records": [
+        {
+          "round": 1,
+          "opp_id": 11,
+          "opp": "GLM",
+          "move": "石头",
+          "opp_move": "剪刀",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 0
+        },
+        {
+          "round": 2,
+          "opp_id": 9,
+          "opp": "豆包",
+          "move": "剪刀",
+          "opp_move": "布",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 1
+        },
+        {
+          "round": 3,
+          "opp_id": 7,
+          "opp": "Meta",
+          "move": "布",
+          "opp_move": "剪刀",
+          "result": "负",
+          "delta": -1,
+          "score_before": 2
+        },
+        {
+          "round": 4,
+          "opp_id": 5,
+          "opp": "Grok",
+          "move": "石头",
+          "opp_move": "剪刀",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 1
+        },
+        {
+          "round": 5,
+          "opp_id": 3,
+          "opp": "腾讯 HY4",
+          "move": "剪刀",
+          "opp_move": "布",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 2
+        },
+        {
+          "round": 6,
+          "opp_id": 12,
+          "opp": "GPT-6",
+          "move": "布",
+          "opp_move": "石头",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 3
+        },
+        {
+          "round": 7,
+          "opp_id": 10,
+          "opp": "DeepSeek",
+          "move": "石头",
+          "opp_move": "石头",
+          "result": "平",
+          "delta": 0,
+          "score_before": 4
+        },
+        {
+          "round": 8,
+          "opp_id": 8,
+          "opp": "MiniMax",
+          "move": "剪刀",
+          "opp_move": "石头",
+          "result": "负",
+          "delta": -1,
+          "score_before": 4
+        },
+        {
+          "round": 9,
+          "opp_id": 6,
+          "opp": "Qwen",
+          "move": "布",
+          "opp_move": "石头",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 3
+        },
+        {
+          "round": 10,
+          "opp_id": 4,
+          "opp": "Gemini",
+          "move": "石头",
+          "opp_move": "剪刀",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 4
+        },
+        {
+          "round": 11,
+          "opp_id": 1,
+          "opp": "Claude",
+          "move": "石头",
+          "opp_move": "石头",
+          "result": "平",
+          "delta": 0,
+          "score_before": 5
+        },
+        {
+          "round": 12,
+          "opp_id": 11,
+          "opp": "GLM",
+          "move": "布",
+          "opp_move": "布",
+          "result": "平",
+          "delta": 0,
+          "score_before": 5
+        },
+        {
+          "round": 13,
+          "opp_id": 9,
+          "opp": "豆包",
+          "move": "剪刀",
+          "opp_move": "石头",
+          "result": "负",
+          "delta": -1,
+          "score_before": 5
+        },
+        {
+          "round": 14,
+          "opp_id": 7,
+          "opp": "Meta",
+          "move": "石头",
+          "opp_move": "石头",
+          "result": "平",
+          "delta": 0,
+          "score_before": 4
+        },
+        {
+          "round": 15,
+          "opp_id": 5,
+          "opp": "Grok",
+          "move": "石头",
+          "opp_move": "布",
+          "result": "负",
+          "delta": -1,
+          "score_before": 4
+        },
+        {
+          "round": 16,
+          "opp_id": 3,
+          "opp": "腾讯 HY4",
+          "move": "剪刀",
+          "opp_move": "布",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 3
+        },
+        {
+          "round": 17,
+          "opp_id": 12,
+          "opp": "GPT-6",
+          "move": "剪刀",
+          "opp_move": "石头",
+          "result": "负",
+          "delta": -1,
+          "score_before": 4
+        },
+        {
+          "round": 18,
+          "opp_id": 10,
+          "opp": "DeepSeek",
+          "move": "布",
+          "opp_move": "石头",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 3
+        },
+        {
+          "round": 19,
+          "opp_id": 8,
+          "opp": "MiniMax",
+          "move": "布",
+          "opp_move": "剪刀",
+          "result": "负",
+          "delta": -1,
+          "score_before": 4
+        },
+        {
+          "round": 20,
+          "opp_id": 6,
+          "opp": "Qwen",
+          "move": "剪刀",
+          "opp_move": "布",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 3
+        },
+        {
+          "round": 21,
+          "opp_id": 4,
+          "opp": "Gemini",
+          "move": "石头",
+          "opp_move": "布",
+          "result": "负",
+          "delta": -1,
+          "score_before": 4
+        },
+        {
+          "round": 22,
+          "opp_id": 1,
+          "opp": "Claude",
+          "move": "布",
+          "opp_move": "石头",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 3
+        }
+      ]
+    },
+    "hunyuan": {
+      "name": "腾讯 HY4 Preview",
+      "stay_after": {
+        "胜": {
+          "n": 5,
+          "yes": 0,
+          "rate": 0.0
+        },
+        "负": {
+          "n": 5,
+          "yes": 0,
+          "rate": 0.0
+        },
+        "平": {
+          "n": 11,
+          "yes": 0,
+          "rate": 0.0
+        }
+      },
+      "counter_after": {
+        "胜": {
+          "n": 5,
+          "yes": 0,
+          "rate": 0.0
+        },
+        "负": {
+          "n": 5,
+          "yes": 3,
+          "rate": 0.6
+        },
+        "平": {
+          "n": 11,
+          "yes": 7,
+          "rate": 0.6363636363636364
+        }
+      },
+      "copy_after": {
+        "胜": {
+          "n": 5,
+          "yes": 3,
+          "rate": 0.6
+        },
+        "负": {
+          "n": 5,
+          "yes": 2,
+          "rate": 0.4
+        },
+        "平": {
+          "n": 11,
+          "yes": 0,
+          "rate": 0.0
+        }
+      },
+      "transitions": {
+        "counter_own": 11,
+        "other": 10
+      },
+      "pressure": {
+        "behind": {
+          "n": 13,
+          "moves": {
+            "石头": 5,
+            "布": 3,
+            "剪刀": 5
+          }
+        },
+        "tied": {
+          "n": 8,
+          "moves": {
+            "石头": 3,
+            "布": 2,
+            "剪刀": 3
+          }
+        },
+        "ahead": {
+          "n": 1,
+          "moves": {
+            "布": 1
+          }
+        }
+      },
+      "same_opponent_adapt": [
+        {
+          "opponent": "DeepSeek V4.1 Flash",
+          "first_round": 1,
+          "second_round": 12,
+          "first_result": "平",
+          "first_self": "石头",
+          "first_opp": "石头",
+          "second_self": "石头",
+          "second_opp": "布",
+          "same_move": true,
+          "counter_first_opp": false,
+          "counter_second_opp": false,
+          "second_result": "负"
+        },
+        {
+          "opponent": "MiniMax M3",
+          "first_round": 2,
+          "second_round": 13,
+          "first_result": "平",
+          "first_self": "布",
+          "first_opp": "布",
+          "second_self": "剪刀",
+          "second_opp": "剪刀",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "平"
+        },
+        {
+          "opponent": "Qwen 3.8 Max",
+          "first_round": 3,
+          "second_round": 14,
+          "first_result": "平",
+          "first_self": "剪刀",
+          "first_opp": "剪刀",
+          "second_self": "石头",
+          "second_opp": "石头",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "平"
+        },
+        {
+          "opponent": "Gemini 3.8 Flash",
+          "first_round": 4,
+          "second_round": 15,
+          "first_result": "胜",
+          "first_self": "石头",
+          "first_opp": "剪刀",
+          "second_self": "剪刀",
+          "second_opp": "布",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": true,
+          "second_result": "胜"
+        },
+        {
+          "opponent": "Kimi K3",
+          "first_round": 5,
+          "second_round": 16,
+          "first_result": "负",
+          "first_self": "布",
+          "first_opp": "剪刀",
+          "second_self": "布",
+          "second_opp": "剪刀",
+          "same_move": true,
+          "counter_first_opp": false,
+          "counter_second_opp": false,
+          "second_result": "负"
+        },
+        {
+          "opponent": "GLM-5.3",
+          "first_round": 6,
+          "second_round": 17,
+          "first_result": "负",
+          "first_self": "剪刀",
+          "first_opp": "石头",
+          "second_self": "石头",
+          "second_opp": "剪刀",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": true,
+          "second_result": "胜"
+        },
+        {
+          "opponent": "豆包 Seed 2.1 Turbo",
+          "first_round": 7,
+          "second_round": 18,
+          "first_result": "平",
+          "first_self": "石头",
+          "first_opp": "石头",
+          "second_self": "剪刀",
+          "second_opp": "剪刀",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": false,
+          "second_result": "平"
+        },
+        {
+          "opponent": "Meta Muse Spark 1.2",
+          "first_round": 8,
+          "second_round": 19,
+          "first_result": "胜",
+          "first_self": "布",
+          "first_opp": "石头",
+          "second_self": "布",
+          "second_opp": "布",
+          "same_move": true,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "平"
+        },
+        {
+          "opponent": "Grok 4.6",
+          "first_round": 9,
+          "second_round": 20,
+          "first_result": "平",
+          "first_self": "剪刀",
+          "first_opp": "剪刀",
+          "second_self": "石头",
+          "second_opp": "石头",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "平"
+        },
+        {
+          "opponent": "Claude Opus 5",
+          "first_round": 10,
+          "second_round": 21,
+          "first_result": "负",
+          "first_self": "石头",
+          "first_opp": "布",
+          "second_self": "剪刀",
+          "second_opp": "布",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": true,
+          "second_result": "胜"
+        },
+        {
+          "opponent": "GPT-6 Astra",
+          "first_round": 11,
+          "second_round": 22,
+          "first_result": "平",
+          "first_self": "剪刀",
+          "first_opp": "剪刀",
+          "second_self": "布",
+          "second_opp": "石头",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": true,
+          "second_result": "胜"
+        }
+      ],
+      "result_transitions": {
+        "平->平": 5,
+        "平->胜": 4,
+        "胜->负": 2,
+        "负->负": 1,
+        "负->平": 3,
+        "胜->平": 2,
+        "平->负": 2,
+        "负->胜": 1,
+        "胜->胜": 1
+      },
+      "records": [
+        {
+          "round": 1,
+          "opp_id": 10,
+          "opp": "DeepSeek",
+          "move": "石头",
+          "opp_move": "石头",
+          "result": "平",
+          "delta": 0,
+          "score_before": 0
+        },
+        {
+          "round": 2,
+          "opp_id": 8,
+          "opp": "MiniMax",
+          "move": "布",
+          "opp_move": "布",
+          "result": "平",
+          "delta": 0,
+          "score_before": 0
+        },
+        {
+          "round": 3,
+          "opp_id": 6,
+          "opp": "Qwen",
+          "move": "剪刀",
+          "opp_move": "剪刀",
+          "result": "平",
+          "delta": 0,
+          "score_before": 0
+        },
+        {
+          "round": 4,
+          "opp_id": 4,
+          "opp": "Gemini",
+          "move": "石头",
+          "opp_move": "剪刀",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 0
+        },
+        {
+          "round": 5,
+          "opp_id": 2,
+          "opp": "Kimi",
+          "move": "布",
+          "opp_move": "剪刀",
+          "result": "负",
+          "delta": -1,
+          "score_before": 1
+        },
+        {
+          "round": 6,
+          "opp_id": 11,
+          "opp": "GLM",
+          "move": "剪刀",
+          "opp_move": "石头",
+          "result": "负",
+          "delta": -1,
+          "score_before": 0
+        },
+        {
+          "round": 7,
+          "opp_id": 9,
+          "opp": "豆包",
+          "move": "石头",
+          "opp_move": "石头",
+          "result": "平",
+          "delta": 0,
+          "score_before": -1
+        },
+        {
+          "round": 8,
+          "opp_id": 7,
+          "opp": "Meta",
+          "move": "布",
+          "opp_move": "石头",
+          "result": "胜",
+          "delta": 1,
+          "score_before": -1
+        },
+        {
+          "round": 9,
+          "opp_id": 5,
+          "opp": "Grok",
+          "move": "剪刀",
+          "opp_move": "剪刀",
+          "result": "平",
+          "delta": 0,
+          "score_before": 0
+        },
+        {
+          "round": 10,
+          "opp_id": 1,
+          "opp": "Claude",
+          "move": "石头",
+          "opp_move": "布",
+          "result": "负",
+          "delta": -1,
+          "score_before": 0
+        },
+        {
+          "round": 11,
+          "opp_id": 12,
+          "opp": "GPT-6",
+          "move": "剪刀",
+          "opp_move": "剪刀",
+          "result": "平",
+          "delta": 0,
+          "score_before": -1
+        },
+        {
+          "round": 12,
+          "opp_id": 10,
+          "opp": "DeepSeek",
+          "move": "石头",
+          "opp_move": "布",
+          "result": "负",
+          "delta": -1,
+          "score_before": -1
+        },
+        {
+          "round": 13,
+          "opp_id": 8,
+          "opp": "MiniMax",
+          "move": "剪刀",
+          "opp_move": "剪刀",
+          "result": "平",
+          "delta": 0,
+          "score_before": -2
+        },
+        {
+          "round": 14,
+          "opp_id": 6,
+          "opp": "Qwen",
+          "move": "石头",
+          "opp_move": "石头",
+          "result": "平",
+          "delta": 0,
+          "score_before": -2
+        },
+        {
+          "round": 15,
+          "opp_id": 4,
+          "opp": "Gemini",
+          "move": "剪刀",
+          "opp_move": "布",
+          "result": "胜",
+          "delta": 1,
+          "score_before": -2
+        },
+        {
+          "round": 16,
+          "opp_id": 2,
+          "opp": "Kimi",
+          "move": "布",
+          "opp_move": "剪刀",
+          "result": "负",
+          "delta": -1,
+          "score_before": -1
+        },
+        {
+          "round": 17,
+          "opp_id": 11,
+          "opp": "GLM",
+          "move": "石头",
+          "opp_move": "剪刀",
+          "result": "胜",
+          "delta": 1,
+          "score_before": -2
+        },
+        {
+          "round": 18,
+          "opp_id": 9,
+          "opp": "豆包",
+          "move": "剪刀",
+          "opp_move": "剪刀",
+          "result": "平",
+          "delta": 0,
+          "score_before": -1
+        },
+        {
+          "round": 19,
+          "opp_id": 7,
+          "opp": "Meta",
+          "move": "布",
+          "opp_move": "布",
+          "result": "平",
+          "delta": 0,
+          "score_before": -1
+        },
+        {
+          "round": 20,
+          "opp_id": 5,
+          "opp": "Grok",
+          "move": "石头",
+          "opp_move": "石头",
+          "result": "平",
+          "delta": 0,
+          "score_before": -1
+        },
+        {
+          "round": 21,
+          "opp_id": 1,
+          "opp": "Claude",
+          "move": "剪刀",
+          "opp_move": "布",
+          "result": "胜",
+          "delta": 1,
+          "score_before": -1
+        },
+        {
+          "round": 22,
+          "opp_id": 12,
+          "opp": "GPT-6",
+          "move": "布",
+          "opp_move": "石头",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 0
+        }
+      ]
+    },
+    "gemini": {
+      "name": "Gemini 3.8 Flash",
+      "stay_after": {
+        "胜": {
+          "n": 8,
+          "yes": 0,
+          "rate": 0.0
+        },
+        "负": {
+          "n": 5,
+          "yes": 0,
+          "rate": 0.0
+        },
+        "平": {
+          "n": 8,
+          "yes": 2,
+          "rate": 0.25
+        }
+      },
+      "counter_after": {
+        "胜": {
+          "n": 8,
+          "yes": 0,
+          "rate": 0.0
+        },
+        "负": {
+          "n": 5,
+          "yes": 5,
+          "rate": 1.0
+        },
+        "平": {
+          "n": 8,
+          "yes": 0,
+          "rate": 0.0
+        }
+      },
+      "copy_after": {
+        "胜": {
+          "n": 8,
+          "yes": 5,
+          "rate": 0.625
+        },
+        "负": {
+          "n": 5,
+          "yes": 0,
+          "rate": 0.0
+        },
+        "平": {
+          "n": 8,
+          "yes": 2,
+          "rate": 0.25
+        }
+      },
+      "transitions": {
+        "other": 16,
+        "counter_own": 3,
+        "same": 2
+      },
+      "pressure": {
+        "behind": {
+          "n": 2,
+          "moves": {
+            "石头": 1,
+            "剪刀": 1
+          }
+        },
+        "tied": {
+          "n": 6,
+          "moves": {
+            "石头": 1,
+            "剪刀": 3,
+            "布": 2
+          }
+        },
+        "ahead": {
+          "n": 14,
+          "moves": {
+            "布": 6,
+            "剪刀": 5,
+            "石头": 3
+          }
+        }
+      },
+      "same_opponent_adapt": [
+        {
+          "opponent": "豆包 Seed 2.1 Turbo",
+          "first_round": 1,
+          "second_round": 12,
+          "first_result": "平",
+          "first_self": "石头",
+          "first_opp": "石头",
+          "second_self": "布",
+          "second_opp": "布",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "平"
+        },
+        {
+          "opponent": "Meta Muse Spark 1.2",
+          "first_round": 2,
+          "second_round": 13,
+          "first_result": "胜",
+          "first_self": "剪刀",
+          "first_opp": "布",
+          "second_self": "石头",
+          "second_opp": "布",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": false,
+          "second_result": "负"
+        },
+        {
+          "opponent": "Grok 4.6",
+          "first_round": 3,
+          "second_round": 14,
+          "first_result": "胜",
+          "first_self": "布",
+          "first_opp": "石头",
+          "second_self": "剪刀",
+          "second_opp": "剪刀",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": false,
+          "second_result": "平"
+        },
+        {
+          "opponent": "腾讯 HY4 Preview",
+          "first_round": 4,
+          "second_round": 15,
+          "first_result": "负",
+          "first_self": "剪刀",
+          "first_opp": "石头",
+          "second_self": "布",
+          "second_opp": "剪刀",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "负"
+        },
+        {
+          "opponent": "GPT-6 Astra",
+          "first_round": 5,
+          "second_round": 16,
+          "first_result": "平",
+          "first_self": "布",
+          "first_opp": "布",
+          "second_self": "石头",
+          "second_opp": "石头",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": false,
+          "second_result": "平"
+        },
+        {
+          "opponent": "DeepSeek V4.1 Flash",
+          "first_round": 6,
+          "second_round": 17,
+          "first_result": "负",
+          "first_self": "石头",
+          "first_opp": "布",
+          "second_self": "剪刀",
+          "second_opp": "布",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": true,
+          "second_result": "胜"
+        },
+        {
+          "opponent": "MiniMax M3",
+          "first_round": 7,
+          "second_round": 18,
+          "first_result": "胜",
+          "first_self": "剪刀",
+          "first_opp": "布",
+          "second_self": "布",
+          "second_opp": "石头",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": true,
+          "second_result": "胜"
+        },
+        {
+          "opponent": "Qwen 3.8 Max",
+          "first_round": 8,
+          "second_round": 19,
+          "first_result": "平",
+          "first_self": "布",
+          "first_opp": "布",
+          "second_self": "剪刀",
+          "second_opp": "剪刀",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "平"
+        },
+        {
+          "opponent": "Claude Opus 5",
+          "first_round": 9,
+          "second_round": 20,
+          "first_result": "胜",
+          "first_self": "石头",
+          "first_opp": "剪刀",
+          "second_self": "剪刀",
+          "second_opp": "布",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": true,
+          "second_result": "胜"
+        },
+        {
+          "opponent": "Kimi K3",
+          "first_round": 10,
+          "second_round": 21,
+          "first_result": "负",
+          "first_self": "剪刀",
+          "first_opp": "石头",
+          "second_self": "布",
+          "second_opp": "石头",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": true,
+          "second_result": "胜"
+        },
+        {
+          "opponent": "GLM-5.3",
+          "first_round": 11,
+          "second_round": 22,
+          "first_result": "平",
+          "first_self": "布",
+          "first_opp": "布",
+          "second_self": "剪刀",
+          "second_opp": "石头",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "负"
+        }
+      ],
+      "result_transitions": {
+        "平->胜": 4,
+        "胜->胜": 3,
+        "胜->负": 3,
+        "负->平": 4,
+        "平->负": 3,
+        "负->胜": 1,
+        "胜->平": 2,
+        "平->平": 1
+      },
+      "records": [
+        {
+          "round": 1,
+          "opp_id": 9,
+          "opp": "豆包",
+          "move": "石头",
+          "opp_move": "石头",
+          "result": "平",
+          "delta": 0,
+          "score_before": 0
+        },
+        {
+          "round": 2,
+          "opp_id": 7,
+          "opp": "Meta",
+          "move": "剪刀",
+          "opp_move": "布",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 0
+        },
+        {
+          "round": 3,
+          "opp_id": 5,
+          "opp": "Grok",
+          "move": "布",
+          "opp_move": "石头",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 1
+        },
+        {
+          "round": 4,
+          "opp_id": 3,
+          "opp": "腾讯 HY4",
+          "move": "剪刀",
+          "opp_move": "石头",
+          "result": "负",
+          "delta": -1,
+          "score_before": 2
+        },
+        {
+          "round": 5,
+          "opp_id": 12,
+          "opp": "GPT-6",
+          "move": "布",
+          "opp_move": "布",
+          "result": "平",
+          "delta": 0,
+          "score_before": 1
+        },
+        {
+          "round": 6,
+          "opp_id": 10,
+          "opp": "DeepSeek",
+          "move": "石头",
+          "opp_move": "布",
+          "result": "负",
+          "delta": -1,
+          "score_before": 1
+        },
+        {
+          "round": 7,
+          "opp_id": 8,
+          "opp": "MiniMax",
+          "move": "剪刀",
+          "opp_move": "布",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 0
+        },
+        {
+          "round": 8,
+          "opp_id": 6,
+          "opp": "Qwen",
+          "move": "布",
+          "opp_move": "布",
+          "result": "平",
+          "delta": 0,
+          "score_before": 1
+        },
+        {
+          "round": 9,
+          "opp_id": 1,
+          "opp": "Claude",
+          "move": "石头",
+          "opp_move": "剪刀",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 1
+        },
+        {
+          "round": 10,
+          "opp_id": 2,
+          "opp": "Kimi",
+          "move": "剪刀",
+          "opp_move": "石头",
+          "result": "负",
+          "delta": -1,
+          "score_before": 2
+        },
+        {
+          "round": 11,
+          "opp_id": 11,
+          "opp": "GLM",
+          "move": "布",
+          "opp_move": "布",
+          "result": "平",
+          "delta": 0,
+          "score_before": 1
+        },
+        {
+          "round": 12,
+          "opp_id": 9,
+          "opp": "豆包",
+          "move": "布",
+          "opp_move": "布",
+          "result": "平",
+          "delta": 0,
+          "score_before": 1
+        },
+        {
+          "round": 13,
+          "opp_id": 7,
+          "opp": "Meta",
+          "move": "石头",
+          "opp_move": "布",
+          "result": "负",
+          "delta": -1,
+          "score_before": 1
+        },
+        {
+          "round": 14,
+          "opp_id": 5,
+          "opp": "Grok",
+          "move": "剪刀",
+          "opp_move": "剪刀",
+          "result": "平",
+          "delta": 0,
+          "score_before": 0
+        },
+        {
+          "round": 15,
+          "opp_id": 3,
+          "opp": "腾讯 HY4",
+          "move": "布",
+          "opp_move": "剪刀",
+          "result": "负",
+          "delta": -1,
+          "score_before": 0
+        },
+        {
+          "round": 16,
+          "opp_id": 12,
+          "opp": "GPT-6",
+          "move": "石头",
+          "opp_move": "石头",
+          "result": "平",
+          "delta": 0,
+          "score_before": -1
+        },
+        {
+          "round": 17,
+          "opp_id": 10,
+          "opp": "DeepSeek",
+          "move": "剪刀",
+          "opp_move": "布",
+          "result": "胜",
+          "delta": 1,
+          "score_before": -1
+        },
+        {
+          "round": 18,
+          "opp_id": 8,
+          "opp": "MiniMax",
+          "move": "布",
+          "opp_move": "石头",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 0
+        },
+        {
+          "round": 19,
+          "opp_id": 6,
+          "opp": "Qwen",
+          "move": "剪刀",
+          "opp_move": "剪刀",
+          "result": "平",
+          "delta": 0,
+          "score_before": 1
+        },
+        {
+          "round": 20,
+          "opp_id": 1,
+          "opp": "Claude",
+          "move": "剪刀",
+          "opp_move": "布",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 1
+        },
+        {
+          "round": 21,
+          "opp_id": 2,
+          "opp": "Kimi",
+          "move": "布",
+          "opp_move": "石头",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 2
+        },
+        {
+          "round": 22,
+          "opp_id": 11,
+          "opp": "GLM",
+          "move": "剪刀",
+          "opp_move": "石头",
+          "result": "负",
+          "delta": -1,
+          "score_before": 3
+        }
+      ]
+    },
+    "grok": {
+      "name": "Grok 4.6",
+      "stay_after": {
+        "胜": {
+          "n": 5,
+          "yes": 2,
+          "rate": 0.4
+        },
+        "负": {
+          "n": 7,
+          "yes": 1,
+          "rate": 0.14285714285714285
+        },
+        "平": {
+          "n": 9,
+          "yes": 2,
+          "rate": 0.2222222222222222
+        }
+      },
+      "counter_after": {
+        "胜": {
+          "n": 5,
+          "yes": 2,
+          "rate": 0.4
+        },
+        "负": {
+          "n": 7,
+          "yes": 5,
+          "rate": 0.7142857142857143
+        },
+        "平": {
+          "n": 9,
+          "yes": 5,
+          "rate": 0.5555555555555556
+        }
+      },
+      "copy_after": {
+        "胜": {
+          "n": 5,
+          "yes": 2,
+          "rate": 0.4
+        },
+        "负": {
+          "n": 7,
+          "yes": 1,
+          "rate": 0.14285714285714285
+        },
+        "平": {
+          "n": 9,
+          "yes": 2,
+          "rate": 0.2222222222222222
+        }
+      },
+      "transitions": {
+        "other": 9,
+        "counter_own": 7,
+        "same": 5
+      },
+      "pressure": {
+        "behind": {
+          "n": 21,
+          "moves": {
+            "布": 9,
+            "石头": 3,
+            "剪刀": 9
+          }
+        },
+        "tied": {
+          "n": 1,
+          "moves": {
+            "剪刀": 1
+          }
+        },
+        "ahead": {
+          "n": 0,
+          "moves": {}
+        }
+      },
+      "same_opponent_adapt": [
+        {
+          "opponent": "MiniMax M3",
+          "first_round": 1,
+          "second_round": 12,
+          "first_result": "负",
+          "first_self": "剪刀",
+          "first_opp": "石头",
+          "second_self": "布",
+          "second_opp": "布",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "平"
+        },
+        {
+          "opponent": "Qwen 3.8 Max",
+          "first_round": 2,
+          "second_round": 13,
+          "first_result": "平",
+          "first_self": "布",
+          "first_opp": "布",
+          "second_self": "剪刀",
+          "second_opp": "剪刀",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "平"
+        },
+        {
+          "opponent": "Gemini 3.8 Flash",
+          "first_round": 3,
+          "second_round": 14,
+          "first_result": "负",
+          "first_self": "石头",
+          "first_opp": "布",
+          "second_self": "剪刀",
+          "second_opp": "剪刀",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "平"
+        },
+        {
+          "opponent": "Kimi K3",
+          "first_round": 4,
+          "second_round": 15,
+          "first_result": "负",
+          "first_self": "剪刀",
+          "first_opp": "石头",
+          "second_self": "布",
+          "second_opp": "石头",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": true,
+          "second_result": "胜"
+        },
+        {
+          "opponent": "GLM-5.3",
+          "first_round": 5,
+          "second_round": 16,
+          "first_result": "平",
+          "first_self": "布",
+          "first_opp": "布",
+          "second_self": "剪刀",
+          "second_opp": "石头",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "负"
+        },
+        {
+          "opponent": "豆包 Seed 2.1 Turbo",
+          "first_round": 6,
+          "second_round": 17,
+          "first_result": "胜",
+          "first_self": "剪刀",
+          "first_opp": "布",
+          "second_self": "布",
+          "second_opp": "石头",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": true,
+          "second_result": "胜"
+        },
+        {
+          "opponent": "Meta Muse Spark 1.2",
+          "first_round": 7,
+          "second_round": 18,
+          "first_result": "胜",
+          "first_self": "剪刀",
+          "first_opp": "布",
+          "second_self": "布",
+          "second_opp": "剪刀",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": false,
+          "second_result": "负"
+        },
+        {
+          "opponent": "Claude Opus 5",
+          "first_round": 8,
+          "second_round": 19,
+          "first_result": "平",
+          "first_self": "布",
+          "first_opp": "布",
+          "second_self": "剪刀",
+          "second_opp": "剪刀",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "平"
+        },
+        {
+          "opponent": "腾讯 HY4 Preview",
+          "first_round": 9,
+          "second_round": 20,
+          "first_result": "平",
+          "first_self": "剪刀",
+          "first_opp": "剪刀",
+          "second_self": "石头",
+          "second_opp": "石头",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "平"
+        },
+        {
+          "opponent": "GPT-6 Astra",
+          "first_round": 10,
+          "second_round": 21,
+          "first_result": "负",
+          "first_self": "剪刀",
+          "first_opp": "石头",
+          "second_self": "布",
+          "second_opp": "石头",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": true,
+          "second_result": "胜"
+        },
+        {
+          "opponent": "DeepSeek V4.1 Flash",
+          "first_round": 11,
+          "second_round": 22,
+          "first_result": "负",
+          "first_self": "布",
+          "first_opp": "剪刀",
+          "second_self": "石头",
+          "second_opp": "剪刀",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": true,
+          "second_result": "胜"
+        }
+      ],
+      "result_transitions": {
+        "负->平": 4,
+        "平->负": 2,
+        "负->负": 2,
+        "平->胜": 3,
+        "胜->胜": 2,
+        "胜->平": 1,
+        "平->平": 4,
+        "胜->负": 2,
+        "负->胜": 1
+      },
+      "records": [
+        {
+          "round": 1,
+          "opp_id": 8,
+          "opp": "MiniMax",
+          "move": "剪刀",
+          "opp_move": "石头",
+          "result": "负",
+          "delta": -1,
+          "score_before": 0
+        },
+        {
+          "round": 2,
+          "opp_id": 6,
+          "opp": "Qwen",
+          "move": "布",
+          "opp_move": "布",
+          "result": "平",
+          "delta": 0,
+          "score_before": -1
+        },
+        {
+          "round": 3,
+          "opp_id": 4,
+          "opp": "Gemini",
+          "move": "石头",
+          "opp_move": "布",
+          "result": "负",
+          "delta": -1,
+          "score_before": -1
+        },
+        {
+          "round": 4,
+          "opp_id": 2,
+          "opp": "Kimi",
+          "move": "剪刀",
+          "opp_move": "石头",
+          "result": "负",
+          "delta": -1,
+          "score_before": -2
+        },
+        {
+          "round": 5,
+          "opp_id": 11,
+          "opp": "GLM",
+          "move": "布",
+          "opp_move": "布",
+          "result": "平",
+          "delta": 0,
+          "score_before": -3
+        },
+        {
+          "round": 6,
+          "opp_id": 9,
+          "opp": "豆包",
+          "move": "剪刀",
+          "opp_move": "布",
+          "result": "胜",
+          "delta": 1,
+          "score_before": -3
+        },
+        {
+          "round": 7,
+          "opp_id": 7,
+          "opp": "Meta",
+          "move": "剪刀",
+          "opp_move": "布",
+          "result": "胜",
+          "delta": 1,
+          "score_before": -2
+        },
+        {
+          "round": 8,
+          "opp_id": 1,
+          "opp": "Claude",
+          "move": "布",
+          "opp_move": "布",
+          "result": "平",
+          "delta": 0,
+          "score_before": -1
+        },
+        {
+          "round": 9,
+          "opp_id": 3,
+          "opp": "腾讯 HY4",
+          "move": "剪刀",
+          "opp_move": "剪刀",
+          "result": "平",
+          "delta": 0,
+          "score_before": -1
+        },
+        {
+          "round": 10,
+          "opp_id": 12,
+          "opp": "GPT-6",
+          "move": "剪刀",
+          "opp_move": "石头",
+          "result": "负",
+          "delta": -1,
+          "score_before": -1
+        },
+        {
+          "round": 11,
+          "opp_id": 10,
+          "opp": "DeepSeek",
+          "move": "布",
+          "opp_move": "剪刀",
+          "result": "负",
+          "delta": -1,
+          "score_before": -2
+        },
+        {
+          "round": 12,
+          "opp_id": 8,
+          "opp": "MiniMax",
+          "move": "布",
+          "opp_move": "布",
+          "result": "平",
+          "delta": 0,
+          "score_before": -3
+        },
+        {
+          "round": 13,
+          "opp_id": 6,
+          "opp": "Qwen",
+          "move": "剪刀",
+          "opp_move": "剪刀",
+          "result": "平",
+          "delta": 0,
+          "score_before": -3
+        },
+        {
+          "round": 14,
+          "opp_id": 4,
+          "opp": "Gemini",
+          "move": "剪刀",
+          "opp_move": "剪刀",
+          "result": "平",
+          "delta": 0,
+          "score_before": -3
+        },
+        {
+          "round": 15,
+          "opp_id": 2,
+          "opp": "Kimi",
+          "move": "布",
+          "opp_move": "石头",
+          "result": "胜",
+          "delta": 1,
+          "score_before": -3
+        },
+        {
+          "round": 16,
+          "opp_id": 11,
+          "opp": "GLM",
+          "move": "剪刀",
+          "opp_move": "石头",
+          "result": "负",
+          "delta": -1,
+          "score_before": -2
+        },
+        {
+          "round": 17,
+          "opp_id": 9,
+          "opp": "豆包",
+          "move": "布",
+          "opp_move": "石头",
+          "result": "胜",
+          "delta": 1,
+          "score_before": -3
+        },
+        {
+          "round": 18,
+          "opp_id": 7,
+          "opp": "Meta",
+          "move": "布",
+          "opp_move": "剪刀",
+          "result": "负",
+          "delta": -1,
+          "score_before": -2
+        },
+        {
+          "round": 19,
+          "opp_id": 1,
+          "opp": "Claude",
+          "move": "剪刀",
+          "opp_move": "剪刀",
+          "result": "平",
+          "delta": 0,
+          "score_before": -3
+        },
+        {
+          "round": 20,
+          "opp_id": 3,
+          "opp": "腾讯 HY4",
+          "move": "石头",
+          "opp_move": "石头",
+          "result": "平",
+          "delta": 0,
+          "score_before": -3
+        },
+        {
+          "round": 21,
+          "opp_id": 12,
+          "opp": "GPT-6",
+          "move": "布",
+          "opp_move": "石头",
+          "result": "胜",
+          "delta": 1,
+          "score_before": -3
+        },
+        {
+          "round": 22,
+          "opp_id": 10,
+          "opp": "DeepSeek",
+          "move": "石头",
+          "opp_move": "剪刀",
+          "result": "胜",
+          "delta": 1,
+          "score_before": -2
+        }
+      ]
+    },
+    "qwen": {
+      "name": "Qwen 3.8 Max",
+      "stay_after": {
+        "胜": {
+          "n": 3,
+          "yes": 1,
+          "rate": 0.3333333333333333
+        },
+        "负": {
+          "n": 7,
+          "yes": 0,
+          "rate": 0.0
+        },
+        "平": {
+          "n": 11,
+          "yes": 1,
+          "rate": 0.09090909090909091
+        }
+      },
+      "counter_after": {
+        "胜": {
+          "n": 3,
+          "yes": 1,
+          "rate": 0.3333333333333333
+        },
+        "负": {
+          "n": 7,
+          "yes": 3,
+          "rate": 0.42857142857142855
+        },
+        "平": {
+          "n": 11,
+          "yes": 5,
+          "rate": 0.45454545454545453
+        }
+      },
+      "copy_after": {
+        "胜": {
+          "n": 3,
+          "yes": 1,
+          "rate": 0.3333333333333333
+        },
+        "负": {
+          "n": 7,
+          "yes": 4,
+          "rate": 0.5714285714285714
+        },
+        "平": {
+          "n": 11,
+          "yes": 1,
+          "rate": 0.09090909090909091
+        }
+      },
+      "transitions": {
+        "counter_own": 10,
+        "other": 9,
+        "same": 2
+      },
+      "pressure": {
+        "behind": {
+          "n": 7,
+          "moves": {
+            "石头": 2,
+            "布": 4,
+            "剪刀": 1
+          }
+        },
+        "tied": {
+          "n": 9,
+          "moves": {
+            "石头": 3,
+            "布": 2,
+            "剪刀": 4
+          }
+        },
+        "ahead": {
+          "n": 6,
+          "moves": {
+            "剪刀": 2,
+            "布": 3,
+            "石头": 1
+          }
+        }
+      },
+      "same_opponent_adapt": [
+        {
+          "opponent": "Meta Muse Spark 1.2",
+          "first_round": 1,
+          "second_round": 12,
+          "first_result": "平",
+          "first_self": "石头",
+          "first_opp": "石头",
+          "second_self": "布",
+          "second_opp": "剪刀",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "负"
+        },
+        {
+          "opponent": "Grok 4.6",
+          "first_round": 2,
+          "second_round": 13,
+          "first_result": "平",
+          "first_self": "布",
+          "first_opp": "布",
+          "second_self": "剪刀",
+          "second_opp": "剪刀",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "平"
+        },
+        {
+          "opponent": "腾讯 HY4 Preview",
+          "first_round": 3,
+          "second_round": 14,
+          "first_result": "平",
+          "first_self": "剪刀",
+          "first_opp": "剪刀",
+          "second_self": "石头",
+          "second_opp": "石头",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "平"
+        },
+        {
+          "opponent": "GPT-6 Astra",
+          "first_round": 4,
+          "second_round": 15,
+          "first_result": "胜",
+          "first_self": "石头",
+          "first_opp": "剪刀",
+          "second_self": "剪刀",
+          "second_opp": "石头",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": false,
+          "second_result": "负"
+        },
+        {
+          "opponent": "DeepSeek V4.1 Flash",
+          "first_round": 5,
+          "second_round": 16,
+          "first_result": "平",
+          "first_self": "剪刀",
+          "first_opp": "剪刀",
+          "second_self": "石头",
+          "second_opp": "布",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "负"
+        },
+        {
+          "opponent": "MiniMax M3",
+          "first_round": 6,
+          "second_round": 17,
+          "first_result": "胜",
+          "first_self": "布",
+          "first_opp": "石头",
+          "second_self": "布",
+          "second_opp": "布",
+          "same_move": true,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "平"
+        },
+        {
+          "opponent": "Claude Opus 5",
+          "first_round": 7,
+          "second_round": 18,
+          "first_result": "负",
+          "first_self": "剪刀",
+          "first_opp": "石头",
+          "second_self": "布",
+          "second_opp": "布",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "平"
+        },
+        {
+          "opponent": "Gemini 3.8 Flash",
+          "first_round": 8,
+          "second_round": 19,
+          "first_result": "平",
+          "first_self": "布",
+          "first_opp": "布",
+          "second_self": "剪刀",
+          "second_opp": "剪刀",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "平"
+        },
+        {
+          "opponent": "Kimi K3",
+          "first_round": 9,
+          "second_round": 20,
+          "first_result": "负",
+          "first_self": "石头",
+          "first_opp": "布",
+          "second_self": "布",
+          "second_opp": "剪刀",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": false,
+          "second_result": "负"
+        },
+        {
+          "opponent": "GLM-5.3",
+          "first_round": 10,
+          "second_round": 21,
+          "first_result": "平",
+          "first_self": "剪刀",
+          "first_opp": "剪刀",
+          "second_self": "石头",
+          "second_opp": "布",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "负"
+        },
+        {
+          "opponent": "豆包 Seed 2.1 Turbo",
+          "first_round": 11,
+          "second_round": 22,
+          "first_result": "胜",
+          "first_self": "布",
+          "first_opp": "石头",
+          "second_self": "布",
+          "second_opp": "剪刀",
+          "same_move": true,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "负"
+        }
+      ],
+      "result_transitions": {
+        "平->平": 5,
+        "平->胜": 3,
+        "胜->平": 1,
+        "胜->负": 2,
+        "负->平": 4,
+        "平->负": 3,
+        "负->负": 3
+      },
+      "records": [
+        {
+          "round": 1,
+          "opp_id": 7,
+          "opp": "Meta",
+          "move": "石头",
+          "opp_move": "石头",
+          "result": "平",
+          "delta": 0,
+          "score_before": 0
+        },
+        {
+          "round": 2,
+          "opp_id": 5,
+          "opp": "Grok",
+          "move": "布",
+          "opp_move": "布",
+          "result": "平",
+          "delta": 0,
+          "score_before": 0
+        },
+        {
+          "round": 3,
+          "opp_id": 3,
+          "opp": "腾讯 HY4",
+          "move": "剪刀",
+          "opp_move": "剪刀",
+          "result": "平",
+          "delta": 0,
+          "score_before": 0
+        },
+        {
+          "round": 4,
+          "opp_id": 12,
+          "opp": "GPT-6",
+          "move": "石头",
+          "opp_move": "剪刀",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 0
+        },
+        {
+          "round": 5,
+          "opp_id": 10,
+          "opp": "DeepSeek",
+          "move": "剪刀",
+          "opp_move": "剪刀",
+          "result": "平",
+          "delta": 0,
+          "score_before": 1
+        },
+        {
+          "round": 6,
+          "opp_id": 8,
+          "opp": "MiniMax",
+          "move": "布",
+          "opp_move": "石头",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 1
+        },
+        {
+          "round": 7,
+          "opp_id": 1,
+          "opp": "Claude",
+          "move": "剪刀",
+          "opp_move": "石头",
+          "result": "负",
+          "delta": -1,
+          "score_before": 2
+        },
+        {
+          "round": 8,
+          "opp_id": 4,
+          "opp": "Gemini",
+          "move": "布",
+          "opp_move": "布",
+          "result": "平",
+          "delta": 0,
+          "score_before": 1
+        },
+        {
+          "round": 9,
+          "opp_id": 2,
+          "opp": "Kimi",
+          "move": "石头",
+          "opp_move": "布",
+          "result": "负",
+          "delta": -1,
+          "score_before": 1
+        },
+        {
+          "round": 10,
+          "opp_id": 11,
+          "opp": "GLM",
+          "move": "剪刀",
+          "opp_move": "剪刀",
+          "result": "平",
+          "delta": 0,
+          "score_before": 0
+        },
+        {
+          "round": 11,
+          "opp_id": 9,
+          "opp": "豆包",
+          "move": "布",
+          "opp_move": "石头",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 0
+        },
+        {
+          "round": 12,
+          "opp_id": 7,
+          "opp": "Meta",
+          "move": "布",
+          "opp_move": "剪刀",
+          "result": "负",
+          "delta": -1,
+          "score_before": 1
+        },
+        {
+          "round": 13,
+          "opp_id": 5,
+          "opp": "Grok",
+          "move": "剪刀",
+          "opp_move": "剪刀",
+          "result": "平",
+          "delta": 0,
+          "score_before": 0
+        },
+        {
+          "round": 14,
+          "opp_id": 3,
+          "opp": "腾讯 HY4",
+          "move": "石头",
+          "opp_move": "石头",
+          "result": "平",
+          "delta": 0,
+          "score_before": 0
+        },
+        {
+          "round": 15,
+          "opp_id": 12,
+          "opp": "GPT-6",
+          "move": "剪刀",
+          "opp_move": "石头",
+          "result": "负",
+          "delta": -1,
+          "score_before": 0
+        },
+        {
+          "round": 16,
+          "opp_id": 10,
+          "opp": "DeepSeek",
+          "move": "石头",
+          "opp_move": "布",
+          "result": "负",
+          "delta": -1,
+          "score_before": -1
+        },
+        {
+          "round": 17,
+          "opp_id": 8,
+          "opp": "MiniMax",
+          "move": "布",
+          "opp_move": "布",
+          "result": "平",
+          "delta": 0,
+          "score_before": -2
+        },
+        {
+          "round": 18,
+          "opp_id": 1,
+          "opp": "Claude",
+          "move": "布",
+          "opp_move": "布",
+          "result": "平",
+          "delta": 0,
+          "score_before": -2
+        },
+        {
+          "round": 19,
+          "opp_id": 4,
+          "opp": "Gemini",
+          "move": "剪刀",
+          "opp_move": "剪刀",
+          "result": "平",
+          "delta": 0,
+          "score_before": -2
+        },
+        {
+          "round": 20,
+          "opp_id": 2,
+          "opp": "Kimi",
+          "move": "布",
+          "opp_move": "剪刀",
+          "result": "负",
+          "delta": -1,
+          "score_before": -2
+        },
+        {
+          "round": 21,
+          "opp_id": 11,
+          "opp": "GLM",
+          "move": "石头",
+          "opp_move": "布",
+          "result": "负",
+          "delta": -1,
+          "score_before": -3
+        },
+        {
+          "round": 22,
+          "opp_id": 9,
+          "opp": "豆包",
+          "move": "布",
+          "opp_move": "剪刀",
+          "result": "负",
+          "delta": -1,
+          "score_before": -4
+        }
+      ]
+    },
+    "meta": {
+      "name": "Meta Muse Spark 1.2",
+      "stay_after": {
+        "胜": {
+          "n": 9,
+          "yes": 0,
+          "rate": 0.0
+        },
+        "负": {
+          "n": 4,
+          "yes": 0,
+          "rate": 0.0
+        },
+        "平": {
+          "n": 8,
+          "yes": 0,
+          "rate": 0.0
+        }
+      },
+      "counter_after": {
+        "胜": {
+          "n": 9,
+          "yes": 0,
+          "rate": 0.0
+        },
+        "负": {
+          "n": 4,
+          "yes": 3,
+          "rate": 0.75
+        },
+        "平": {
+          "n": 8,
+          "yes": 1,
+          "rate": 0.125
+        }
+      },
+      "copy_after": {
+        "胜": {
+          "n": 9,
+          "yes": 9,
+          "rate": 1.0
+        },
+        "负": {
+          "n": 4,
+          "yes": 1,
+          "rate": 0.25
+        },
+        "平": {
+          "n": 8,
+          "yes": 0,
+          "rate": 0.0
+        }
+      },
+      "transitions": {
+        "counter_own": 2,
+        "other": 19
+      },
+      "pressure": {
+        "behind": {
+          "n": 6,
+          "moves": {
+            "剪刀": 3,
+            "石头": 2,
+            "布": 1
+          }
+        },
+        "tied": {
+          "n": 6,
+          "moves": {
+            "石头": 2,
+            "布": 3,
+            "剪刀": 1
+          }
+        },
+        "ahead": {
+          "n": 10,
+          "moves": {
+            "布": 4,
+            "石头": 3,
+            "剪刀": 3
+          }
+        }
+      },
+      "same_opponent_adapt": [
+        {
+          "opponent": "Qwen 3.8 Max",
+          "first_round": 1,
+          "second_round": 12,
+          "first_result": "平",
+          "first_self": "石头",
+          "first_opp": "石头",
+          "second_self": "剪刀",
+          "second_opp": "布",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": true,
+          "second_result": "胜"
+        },
+        {
+          "opponent": "Gemini 3.8 Flash",
+          "first_round": 2,
+          "second_round": 13,
+          "first_result": "负",
+          "first_self": "布",
+          "first_opp": "剪刀",
+          "second_self": "布",
+          "second_opp": "石头",
+          "same_move": true,
+          "counter_first_opp": false,
+          "counter_second_opp": true,
+          "second_result": "胜"
+        },
+        {
+          "opponent": "Kimi K3",
+          "first_round": 3,
+          "second_round": 14,
+          "first_result": "胜",
+          "first_self": "剪刀",
+          "first_opp": "布",
+          "second_self": "石头",
+          "second_opp": "石头",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": false,
+          "second_result": "平"
+        },
+        {
+          "opponent": "GLM-5.3",
+          "first_round": 4,
+          "second_round": 15,
+          "first_result": "负",
+          "first_self": "布",
+          "first_opp": "剪刀",
+          "second_self": "剪刀",
+          "second_opp": "布",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": true,
+          "second_result": "胜"
+        },
+        {
+          "opponent": "豆包 Seed 2.1 Turbo",
+          "first_round": 5,
+          "second_round": 16,
+          "first_result": "平",
+          "first_self": "石头",
+          "first_opp": "石头",
+          "second_self": "布",
+          "second_opp": "布",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "平"
+        },
+        {
+          "opponent": "Claude Opus 5",
+          "first_round": 6,
+          "second_round": 17,
+          "first_result": "胜",
+          "first_self": "剪刀",
+          "first_opp": "布",
+          "second_self": "石头",
+          "second_opp": "石头",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": false,
+          "second_result": "平"
+        },
+        {
+          "opponent": "Grok 4.6",
+          "first_round": 7,
+          "second_round": 18,
+          "first_result": "负",
+          "first_self": "布",
+          "first_opp": "剪刀",
+          "second_self": "剪刀",
+          "second_opp": "布",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": true,
+          "second_result": "胜"
+        },
+        {
+          "opponent": "腾讯 HY4 Preview",
+          "first_round": 8,
+          "second_round": 19,
+          "first_result": "负",
+          "first_self": "石头",
+          "first_opp": "布",
+          "second_self": "布",
+          "second_opp": "布",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": false,
+          "second_result": "平"
+        },
+        {
+          "opponent": "GPT-6 Astra",
+          "first_round": 9,
+          "second_round": 20,
+          "first_result": "胜",
+          "first_self": "剪刀",
+          "first_opp": "布",
+          "second_self": "石头",
+          "second_opp": "石头",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": false,
+          "second_result": "平"
+        },
+        {
+          "opponent": "DeepSeek V4.1 Flash",
+          "first_round": 10,
+          "second_round": 21,
+          "first_result": "胜",
+          "first_self": "布",
+          "first_opp": "石头",
+          "second_self": "剪刀",
+          "second_opp": "布",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": true,
+          "second_result": "胜"
+        },
+        {
+          "opponent": "MiniMax M3",
+          "first_round": 11,
+          "second_round": 22,
+          "first_result": "平",
+          "first_self": "石头",
+          "first_opp": "石头",
+          "second_self": "布",
+          "second_opp": "布",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "平"
+        }
+      ],
+      "result_transitions": {
+        "平->负": 1,
+        "负->胜": 2,
+        "胜->负": 2,
+        "负->平": 1,
+        "平->胜": 5,
+        "负->负": 1,
+        "胜->胜": 2,
+        "胜->平": 5,
+        "平->平": 2
+      },
+      "records": [
+        {
+          "round": 1,
+          "opp_id": 6,
+          "opp": "Qwen",
+          "move": "石头",
+          "opp_move": "石头",
+          "result": "平",
+          "delta": 0,
+          "score_before": 0
+        },
+        {
+          "round": 2,
+          "opp_id": 4,
+          "opp": "Gemini",
+          "move": "布",
+          "opp_move": "剪刀",
+          "result": "负",
+          "delta": -1,
+          "score_before": 0
+        },
+        {
+          "round": 3,
+          "opp_id": 2,
+          "opp": "Kimi",
+          "move": "剪刀",
+          "opp_move": "布",
+          "result": "胜",
+          "delta": 1,
+          "score_before": -1
+        },
+        {
+          "round": 4,
+          "opp_id": 11,
+          "opp": "GLM",
+          "move": "布",
+          "opp_move": "剪刀",
+          "result": "负",
+          "delta": -1,
+          "score_before": 0
+        },
+        {
+          "round": 5,
+          "opp_id": 9,
+          "opp": "豆包",
+          "move": "石头",
+          "opp_move": "石头",
+          "result": "平",
+          "delta": 0,
+          "score_before": -1
+        },
+        {
+          "round": 6,
+          "opp_id": 1,
+          "opp": "Claude",
+          "move": "剪刀",
+          "opp_move": "布",
+          "result": "胜",
+          "delta": 1,
+          "score_before": -1
+        },
+        {
+          "round": 7,
+          "opp_id": 5,
+          "opp": "Grok",
+          "move": "布",
+          "opp_move": "剪刀",
+          "result": "负",
+          "delta": -1,
+          "score_before": 0
+        },
+        {
+          "round": 8,
+          "opp_id": 3,
+          "opp": "腾讯 HY4",
+          "move": "石头",
+          "opp_move": "布",
+          "result": "负",
+          "delta": -1,
+          "score_before": -1
+        },
+        {
+          "round": 9,
+          "opp_id": 12,
+          "opp": "GPT-6",
+          "move": "剪刀",
+          "opp_move": "布",
+          "result": "胜",
+          "delta": 1,
+          "score_before": -2
+        },
+        {
+          "round": 10,
+          "opp_id": 10,
+          "opp": "DeepSeek",
+          "move": "布",
+          "opp_move": "石头",
+          "result": "胜",
+          "delta": 1,
+          "score_before": -1
+        },
+        {
+          "round": 11,
+          "opp_id": 8,
+          "opp": "MiniMax",
+          "move": "石头",
+          "opp_move": "石头",
+          "result": "平",
+          "delta": 0,
+          "score_before": 0
+        },
+        {
+          "round": 12,
+          "opp_id": 6,
+          "opp": "Qwen",
+          "move": "剪刀",
+          "opp_move": "布",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 0
+        },
+        {
+          "round": 13,
+          "opp_id": 4,
+          "opp": "Gemini",
+          "move": "布",
+          "opp_move": "石头",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 1
+        },
+        {
+          "round": 14,
+          "opp_id": 2,
+          "opp": "Kimi",
+          "move": "石头",
+          "opp_move": "石头",
+          "result": "平",
+          "delta": 0,
+          "score_before": 2
+        },
+        {
+          "round": 15,
+          "opp_id": 11,
+          "opp": "GLM",
+          "move": "剪刀",
+          "opp_move": "布",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 2
+        },
+        {
+          "round": 16,
+          "opp_id": 9,
+          "opp": "豆包",
+          "move": "布",
+          "opp_move": "布",
+          "result": "平",
+          "delta": 0,
+          "score_before": 3
+        },
+        {
+          "round": 17,
+          "opp_id": 1,
+          "opp": "Claude",
+          "move": "石头",
+          "opp_move": "石头",
+          "result": "平",
+          "delta": 0,
+          "score_before": 3
+        },
+        {
+          "round": 18,
+          "opp_id": 5,
+          "opp": "Grok",
+          "move": "剪刀",
+          "opp_move": "布",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 3
+        },
+        {
+          "round": 19,
+          "opp_id": 3,
+          "opp": "腾讯 HY4",
+          "move": "布",
+          "opp_move": "布",
+          "result": "平",
+          "delta": 0,
+          "score_before": 4
+        },
+        {
+          "round": 20,
+          "opp_id": 12,
+          "opp": "GPT-6",
+          "move": "石头",
+          "opp_move": "石头",
+          "result": "平",
+          "delta": 0,
+          "score_before": 4
+        },
+        {
+          "round": 21,
+          "opp_id": 10,
+          "opp": "DeepSeek",
+          "move": "剪刀",
+          "opp_move": "布",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 4
+        },
+        {
+          "round": 22,
+          "opp_id": 8,
+          "opp": "MiniMax",
+          "move": "布",
+          "opp_move": "布",
+          "result": "平",
+          "delta": 0,
+          "score_before": 5
+        }
+      ]
+    },
+    "minimax": {
+      "name": "MiniMax M3",
+      "stay_after": {
+        "胜": {
+          "n": 6,
+          "yes": 1,
+          "rate": 0.16666666666666666
+        },
+        "负": {
+          "n": 8,
+          "yes": 0,
+          "rate": 0.0
+        },
+        "平": {
+          "n": 7,
+          "yes": 1,
+          "rate": 0.14285714285714285
+        }
+      },
+      "counter_after": {
+        "胜": {
+          "n": 6,
+          "yes": 1,
+          "rate": 0.16666666666666666
+        },
+        "负": {
+          "n": 8,
+          "yes": 5,
+          "rate": 0.625
+        },
+        "平": {
+          "n": 7,
+          "yes": 4,
+          "rate": 0.5714285714285714
+        }
+      },
+      "copy_after": {
+        "胜": {
+          "n": 6,
+          "yes": 2,
+          "rate": 0.3333333333333333
+        },
+        "负": {
+          "n": 8,
+          "yes": 3,
+          "rate": 0.375
+        },
+        "平": {
+          "n": 7,
+          "yes": 1,
+          "rate": 0.14285714285714285
+        }
+      },
+      "transitions": {
+        "counter_own": 10,
+        "other": 9,
+        "same": 2
+      },
+      "pressure": {
+        "behind": {
+          "n": 14,
+          "moves": {
+            "石头": 5,
+            "布": 6,
+            "剪刀": 3
+          }
+        },
+        "tied": {
+          "n": 4,
+          "moves": {
+            "石头": 1,
+            "布": 2,
+            "剪刀": 1
+          }
+        },
+        "ahead": {
+          "n": 4,
+          "moves": {
+            "布": 1,
+            "石头": 2,
+            "剪刀": 1
+          }
+        }
+      },
+      "same_opponent_adapt": [
+        {
+          "opponent": "Grok 4.6",
+          "first_round": 1,
+          "second_round": 12,
+          "first_result": "胜",
+          "first_self": "石头",
+          "first_opp": "剪刀",
+          "second_self": "布",
+          "second_opp": "布",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": false,
+          "second_result": "平"
+        },
+        {
+          "opponent": "腾讯 HY4 Preview",
+          "first_round": 2,
+          "second_round": 13,
+          "first_result": "平",
+          "first_self": "布",
+          "first_opp": "布",
+          "second_self": "剪刀",
+          "second_opp": "剪刀",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "平"
+        },
+        {
+          "opponent": "GPT-6 Astra",
+          "first_round": 3,
+          "second_round": 14,
+          "first_result": "负",
+          "first_self": "石头",
+          "first_opp": "布",
+          "second_self": "剪刀",
+          "second_opp": "石头",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "负"
+        },
+        {
+          "opponent": "DeepSeek V4.1 Flash",
+          "first_round": 4,
+          "second_round": 15,
+          "first_result": "胜",
+          "first_self": "布",
+          "first_opp": "石头",
+          "second_self": "石头",
+          "second_opp": "剪刀",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": true,
+          "second_result": "胜"
+        },
+        {
+          "opponent": "Claude Opus 5",
+          "first_round": 5,
+          "second_round": 16,
+          "first_result": "平",
+          "first_self": "剪刀",
+          "first_opp": "剪刀",
+          "second_self": "布",
+          "second_opp": "石头",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": true,
+          "second_result": "胜"
+        },
+        {
+          "opponent": "Qwen 3.8 Max",
+          "first_round": 6,
+          "second_round": 17,
+          "first_result": "负",
+          "first_self": "石头",
+          "first_opp": "布",
+          "second_self": "布",
+          "second_opp": "布",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": false,
+          "second_result": "平"
+        },
+        {
+          "opponent": "Gemini 3.8 Flash",
+          "first_round": 7,
+          "second_round": 18,
+          "first_result": "负",
+          "first_self": "布",
+          "first_opp": "剪刀",
+          "second_self": "石头",
+          "second_opp": "布",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "负"
+        },
+        {
+          "opponent": "Kimi K3",
+          "first_round": 8,
+          "second_round": 19,
+          "first_result": "胜",
+          "first_self": "石头",
+          "first_opp": "剪刀",
+          "second_self": "剪刀",
+          "second_opp": "布",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": true,
+          "second_result": "胜"
+        },
+        {
+          "opponent": "GLM-5.3",
+          "first_round": 9,
+          "second_round": 20,
+          "first_result": "负",
+          "first_self": "剪刀",
+          "first_opp": "石头",
+          "second_self": "布",
+          "second_opp": "剪刀",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "负"
+        },
+        {
+          "opponent": "豆包 Seed 2.1 Turbo",
+          "first_round": 10,
+          "second_round": 21,
+          "first_result": "负",
+          "first_self": "布",
+          "first_opp": "剪刀",
+          "second_self": "石头",
+          "second_opp": "石头",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "平"
+        },
+        {
+          "opponent": "Meta Muse Spark 1.2",
+          "first_round": 11,
+          "second_round": 22,
+          "first_result": "平",
+          "first_self": "石头",
+          "first_opp": "石头",
+          "second_self": "布",
+          "second_opp": "布",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "平"
+        }
+      ],
+      "result_transitions": {
+        "胜->平": 3,
+        "平->负": 4,
+        "负->胜": 4,
+        "负->负": 2,
+        "胜->负": 2,
+        "负->平": 2,
+        "平->平": 3,
+        "胜->胜": 1
+      },
+      "records": [
+        {
+          "round": 1,
+          "opp_id": 5,
+          "opp": "Grok",
+          "move": "石头",
+          "opp_move": "剪刀",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 0
+        },
+        {
+          "round": 2,
+          "opp_id": 3,
+          "opp": "腾讯 HY4",
+          "move": "布",
+          "opp_move": "布",
+          "result": "平",
+          "delta": 0,
+          "score_before": 1
+        },
+        {
+          "round": 3,
+          "opp_id": 12,
+          "opp": "GPT-6",
+          "move": "石头",
+          "opp_move": "布",
+          "result": "负",
+          "delta": -1,
+          "score_before": 1
+        },
+        {
+          "round": 4,
+          "opp_id": 10,
+          "opp": "DeepSeek",
+          "move": "布",
+          "opp_move": "石头",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 0
+        },
+        {
+          "round": 5,
+          "opp_id": 1,
+          "opp": "Claude",
+          "move": "剪刀",
+          "opp_move": "剪刀",
+          "result": "平",
+          "delta": 0,
+          "score_before": 1
+        },
+        {
+          "round": 6,
+          "opp_id": 6,
+          "opp": "Qwen",
+          "move": "石头",
+          "opp_move": "布",
+          "result": "负",
+          "delta": -1,
+          "score_before": 1
+        },
+        {
+          "round": 7,
+          "opp_id": 4,
+          "opp": "Gemini",
+          "move": "布",
+          "opp_move": "剪刀",
+          "result": "负",
+          "delta": -1,
+          "score_before": 0
+        },
+        {
+          "round": 8,
+          "opp_id": 2,
+          "opp": "Kimi",
+          "move": "石头",
+          "opp_move": "剪刀",
+          "result": "胜",
+          "delta": 1,
+          "score_before": -1
+        },
+        {
+          "round": 9,
+          "opp_id": 11,
+          "opp": "GLM",
+          "move": "剪刀",
+          "opp_move": "石头",
+          "result": "负",
+          "delta": -1,
+          "score_before": 0
+        },
+        {
+          "round": 10,
+          "opp_id": 9,
+          "opp": "豆包",
+          "move": "布",
+          "opp_move": "剪刀",
+          "result": "负",
+          "delta": -1,
+          "score_before": -1
+        },
+        {
+          "round": 11,
+          "opp_id": 7,
+          "opp": "Meta",
+          "move": "石头",
+          "opp_move": "石头",
+          "result": "平",
+          "delta": 0,
+          "score_before": -2
+        },
+        {
+          "round": 12,
+          "opp_id": 5,
+          "opp": "Grok",
+          "move": "布",
+          "opp_move": "布",
+          "result": "平",
+          "delta": 0,
+          "score_before": -2
+        },
+        {
+          "round": 13,
+          "opp_id": 3,
+          "opp": "腾讯 HY4",
+          "move": "剪刀",
+          "opp_move": "剪刀",
+          "result": "平",
+          "delta": 0,
+          "score_before": -2
+        },
+        {
+          "round": 14,
+          "opp_id": 12,
+          "opp": "GPT-6",
+          "move": "剪刀",
+          "opp_move": "石头",
+          "result": "负",
+          "delta": -1,
+          "score_before": -2
+        },
+        {
+          "round": 15,
+          "opp_id": 10,
+          "opp": "DeepSeek",
+          "move": "石头",
+          "opp_move": "剪刀",
+          "result": "胜",
+          "delta": 1,
+          "score_before": -3
+        },
+        {
+          "round": 16,
+          "opp_id": 1,
+          "opp": "Claude",
+          "move": "布",
+          "opp_move": "石头",
+          "result": "胜",
+          "delta": 1,
+          "score_before": -2
+        },
+        {
+          "round": 17,
+          "opp_id": 6,
+          "opp": "Qwen",
+          "move": "布",
+          "opp_move": "布",
+          "result": "平",
+          "delta": 0,
+          "score_before": -1
+        },
+        {
+          "round": 18,
+          "opp_id": 4,
+          "opp": "Gemini",
+          "move": "石头",
+          "opp_move": "布",
+          "result": "负",
+          "delta": -1,
+          "score_before": -1
+        },
+        {
+          "round": 19,
+          "opp_id": 2,
+          "opp": "Kimi",
+          "move": "剪刀",
+          "opp_move": "布",
+          "result": "胜",
+          "delta": 1,
+          "score_before": -2
+        },
+        {
+          "round": 20,
+          "opp_id": 11,
+          "opp": "GLM",
+          "move": "布",
+          "opp_move": "剪刀",
+          "result": "负",
+          "delta": -1,
+          "score_before": -1
+        },
+        {
+          "round": 21,
+          "opp_id": 9,
+          "opp": "豆包",
+          "move": "石头",
+          "opp_move": "石头",
+          "result": "平",
+          "delta": 0,
+          "score_before": -2
+        },
+        {
+          "round": 22,
+          "opp_id": 7,
+          "opp": "Meta",
+          "move": "布",
+          "opp_move": "布",
+          "result": "平",
+          "delta": 0,
+          "score_before": -2
+        }
+      ]
+    },
+    "doubao": {
+      "name": "豆包 Seed 2.1 Turbo",
+      "stay_after": {
+        "胜": {
+          "n": 4,
+          "yes": 0,
+          "rate": 0.0
+        },
+        "负": {
+          "n": 8,
+          "yes": 1,
+          "rate": 0.125
+        },
+        "平": {
+          "n": 9,
+          "yes": 0,
+          "rate": 0.0
+        }
+      },
+      "counter_after": {
+        "胜": {
+          "n": 4,
+          "yes": 0,
+          "rate": 0.0
+        },
+        "负": {
+          "n": 8,
+          "yes": 4,
+          "rate": 0.5
+        },
+        "平": {
+          "n": 9,
+          "yes": 3,
+          "rate": 0.3333333333333333
+        }
+      },
+      "copy_after": {
+        "胜": {
+          "n": 4,
+          "yes": 2,
+          "rate": 0.5
+        },
+        "负": {
+          "n": 8,
+          "yes": 3,
+          "rate": 0.375
+        },
+        "平": {
+          "n": 9,
+          "yes": 0,
+          "rate": 0.0
+        }
+      },
+      "transitions": {
+        "counter_own": 8,
+        "other": 12,
+        "same": 1
+      },
+      "pressure": {
+        "behind": {
+          "n": 20,
+          "moves": {
+            "剪刀": 6,
+            "布": 7,
+            "石头": 7
+          }
+        },
+        "tied": {
+          "n": 2,
+          "moves": {
+            "石头": 1,
+            "布": 1
+          }
+        },
+        "ahead": {
+          "n": 0,
+          "moves": {}
+        }
+      },
+      "same_opponent_adapt": [
+        {
+          "opponent": "Gemini 3.8 Flash",
+          "first_round": 1,
+          "second_round": 12,
+          "first_result": "平",
+          "first_self": "石头",
+          "first_opp": "石头",
+          "second_self": "布",
+          "second_opp": "布",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "平"
+        },
+        {
+          "opponent": "Kimi K3",
+          "first_round": 2,
+          "second_round": 13,
+          "first_result": "负",
+          "first_self": "布",
+          "first_opp": "剪刀",
+          "second_self": "石头",
+          "second_opp": "剪刀",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": true,
+          "second_result": "胜"
+        },
+        {
+          "opponent": "GLM-5.3",
+          "first_round": 3,
+          "second_round": 14,
+          "first_result": "负",
+          "first_self": "剪刀",
+          "first_opp": "石头",
+          "second_self": "布",
+          "second_opp": "剪刀",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "负"
+        },
+        {
+          "opponent": "Claude Opus 5",
+          "first_round": 4,
+          "second_round": 15,
+          "first_result": "胜",
+          "first_self": "布",
+          "first_opp": "石头",
+          "second_self": "剪刀",
+          "second_opp": "剪刀",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": false,
+          "second_result": "平"
+        },
+        {
+          "opponent": "Meta Muse Spark 1.2",
+          "first_round": 5,
+          "second_round": 16,
+          "first_result": "平",
+          "first_self": "石头",
+          "first_opp": "石头",
+          "second_self": "布",
+          "second_opp": "布",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "平"
+        },
+        {
+          "opponent": "Grok 4.6",
+          "first_round": 6,
+          "second_round": 17,
+          "first_result": "负",
+          "first_self": "布",
+          "first_opp": "剪刀",
+          "second_self": "石头",
+          "second_opp": "布",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "负"
+        },
+        {
+          "opponent": "腾讯 HY4 Preview",
+          "first_round": 7,
+          "second_round": 18,
+          "first_result": "平",
+          "first_self": "石头",
+          "first_opp": "石头",
+          "second_self": "剪刀",
+          "second_opp": "剪刀",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": false,
+          "second_result": "平"
+        },
+        {
+          "opponent": "GPT-6 Astra",
+          "first_round": 8,
+          "second_round": 19,
+          "first_result": "负",
+          "first_self": "剪刀",
+          "first_opp": "石头",
+          "second_self": "布",
+          "second_opp": "石头",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": true,
+          "second_result": "胜"
+        },
+        {
+          "opponent": "DeepSeek V4.1 Flash",
+          "first_round": 9,
+          "second_round": 20,
+          "first_result": "平",
+          "first_self": "布",
+          "first_opp": "布",
+          "second_self": "石头",
+          "second_opp": "布",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": false,
+          "second_result": "负"
+        },
+        {
+          "opponent": "MiniMax M3",
+          "first_round": 10,
+          "second_round": 21,
+          "first_result": "胜",
+          "first_self": "剪刀",
+          "first_opp": "布",
+          "second_self": "石头",
+          "second_opp": "石头",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": false,
+          "second_result": "平"
+        },
+        {
+          "opponent": "Qwen 3.8 Max",
+          "first_round": 11,
+          "second_round": 22,
+          "first_result": "负",
+          "first_self": "石头",
+          "first_opp": "布",
+          "second_self": "剪刀",
+          "second_opp": "布",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": true,
+          "second_result": "胜"
+        }
+      ],
+      "result_transitions": {
+        "平->负": 4,
+        "负->负": 1,
+        "负->胜": 1,
+        "胜->平": 1,
+        "负->平": 6,
+        "平->胜": 4,
+        "胜->负": 3,
+        "平->平": 1
+      },
+      "records": [
+        {
+          "round": 1,
+          "opp_id": 4,
+          "opp": "Gemini",
+          "move": "石头",
+          "opp_move": "石头",
+          "result": "平",
+          "delta": 0,
+          "score_before": 0
+        },
+        {
+          "round": 2,
+          "opp_id": 2,
+          "opp": "Kimi",
+          "move": "布",
+          "opp_move": "剪刀",
+          "result": "负",
+          "delta": -1,
+          "score_before": 0
+        },
+        {
+          "round": 3,
+          "opp_id": 11,
+          "opp": "GLM",
+          "move": "剪刀",
+          "opp_move": "石头",
+          "result": "负",
+          "delta": -1,
+          "score_before": -1
+        },
+        {
+          "round": 4,
+          "opp_id": 1,
+          "opp": "Claude",
+          "move": "布",
+          "opp_move": "石头",
+          "result": "胜",
+          "delta": 1,
+          "score_before": -2
+        },
+        {
+          "round": 5,
+          "opp_id": 7,
+          "opp": "Meta",
+          "move": "石头",
+          "opp_move": "石头",
+          "result": "平",
+          "delta": 0,
+          "score_before": -1
+        },
+        {
+          "round": 6,
+          "opp_id": 5,
+          "opp": "Grok",
+          "move": "布",
+          "opp_move": "剪刀",
+          "result": "负",
+          "delta": -1,
+          "score_before": -1
+        },
+        {
+          "round": 7,
+          "opp_id": 3,
+          "opp": "腾讯 HY4",
+          "move": "石头",
+          "opp_move": "石头",
+          "result": "平",
+          "delta": 0,
+          "score_before": -2
+        },
+        {
+          "round": 8,
+          "opp_id": 12,
+          "opp": "GPT-6",
+          "move": "剪刀",
+          "opp_move": "石头",
+          "result": "负",
+          "delta": -1,
+          "score_before": -2
+        },
+        {
+          "round": 9,
+          "opp_id": 10,
+          "opp": "DeepSeek",
+          "move": "布",
+          "opp_move": "布",
+          "result": "平",
+          "delta": 0,
+          "score_before": -3
+        },
+        {
+          "round": 10,
+          "opp_id": 8,
+          "opp": "MiniMax",
+          "move": "剪刀",
+          "opp_move": "布",
+          "result": "胜",
+          "delta": 1,
+          "score_before": -3
+        },
+        {
+          "round": 11,
+          "opp_id": 6,
+          "opp": "Qwen",
+          "move": "石头",
+          "opp_move": "布",
+          "result": "负",
+          "delta": -1,
+          "score_before": -2
+        },
+        {
+          "round": 12,
+          "opp_id": 4,
+          "opp": "Gemini",
+          "move": "布",
+          "opp_move": "布",
+          "result": "平",
+          "delta": 0,
+          "score_before": -3
+        },
+        {
+          "round": 13,
+          "opp_id": 2,
+          "opp": "Kimi",
+          "move": "石头",
+          "opp_move": "剪刀",
+          "result": "胜",
+          "delta": 1,
+          "score_before": -3
+        },
+        {
+          "round": 14,
+          "opp_id": 11,
+          "opp": "GLM",
+          "move": "布",
+          "opp_move": "剪刀",
+          "result": "负",
+          "delta": -1,
+          "score_before": -2
+        },
+        {
+          "round": 15,
+          "opp_id": 1,
+          "opp": "Claude",
+          "move": "剪刀",
+          "opp_move": "剪刀",
+          "result": "平",
+          "delta": 0,
+          "score_before": -3
+        },
+        {
+          "round": 16,
+          "opp_id": 7,
+          "opp": "Meta",
+          "move": "布",
+          "opp_move": "布",
+          "result": "平",
+          "delta": 0,
+          "score_before": -3
+        },
+        {
+          "round": 17,
+          "opp_id": 5,
+          "opp": "Grok",
+          "move": "石头",
+          "opp_move": "布",
+          "result": "负",
+          "delta": -1,
+          "score_before": -3
+        },
+        {
+          "round": 18,
+          "opp_id": 3,
+          "opp": "腾讯 HY4",
+          "move": "剪刀",
+          "opp_move": "剪刀",
+          "result": "平",
+          "delta": 0,
+          "score_before": -4
+        },
+        {
+          "round": 19,
+          "opp_id": 12,
+          "opp": "GPT-6",
+          "move": "布",
+          "opp_move": "石头",
+          "result": "胜",
+          "delta": 1,
+          "score_before": -4
+        },
+        {
+          "round": 20,
+          "opp_id": 10,
+          "opp": "DeepSeek",
+          "move": "石头",
+          "opp_move": "布",
+          "result": "负",
+          "delta": -1,
+          "score_before": -3
+        },
+        {
+          "round": 21,
+          "opp_id": 8,
+          "opp": "MiniMax",
+          "move": "石头",
+          "opp_move": "石头",
+          "result": "平",
+          "delta": 0,
+          "score_before": -4
+        },
+        {
+          "round": 22,
+          "opp_id": 6,
+          "opp": "Qwen",
+          "move": "剪刀",
+          "opp_move": "布",
+          "result": "胜",
+          "delta": 1,
+          "score_before": -4
+        }
+      ]
+    },
+    "deepseek": {
+      "name": "DeepSeek V4.1 Flash",
+      "stay_after": {
+        "胜": {
+          "n": 7,
+          "yes": 2,
+          "rate": 0.2857142857142857
+        },
+        "负": {
+          "n": 8,
+          "yes": 1,
+          "rate": 0.125
+        },
+        "平": {
+          "n": 6,
+          "yes": 1,
+          "rate": 0.16666666666666666
+        }
+      },
+      "counter_after": {
+        "胜": {
+          "n": 7,
+          "yes": 2,
+          "rate": 0.2857142857142857
+        },
+        "负": {
+          "n": 8,
+          "yes": 6,
+          "rate": 0.75
+        },
+        "平": {
+          "n": 6,
+          "yes": 1,
+          "rate": 0.16666666666666666
+        }
+      },
+      "copy_after": {
+        "胜": {
+          "n": 7,
+          "yes": 5,
+          "rate": 0.7142857142857143
+        },
+        "负": {
+          "n": 8,
+          "yes": 1,
+          "rate": 0.125
+        },
+        "平": {
+          "n": 6,
+          "yes": 1,
+          "rate": 0.16666666666666666
+        }
+      },
+      "transitions": {
+        "other": 15,
+        "same": 4,
+        "counter_own": 2
+      },
+      "pressure": {
+        "behind": {
+          "n": 13,
+          "moves": {
+            "布": 5,
+            "石头": 4,
+            "剪刀": 4
+          }
+        },
+        "tied": {
+          "n": 7,
+          "moves": {
+            "石头": 4,
+            "剪刀": 1,
+            "布": 2
+          }
+        },
+        "ahead": {
+          "n": 2,
+          "moves": {
+            "剪刀": 1,
+            "布": 1
+          }
+        }
+      },
+      "same_opponent_adapt": [
+        {
+          "opponent": "腾讯 HY4 Preview",
+          "first_round": 1,
+          "second_round": 12,
+          "first_result": "平",
+          "first_self": "石头",
+          "first_opp": "石头",
+          "second_self": "布",
+          "second_opp": "石头",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": true,
+          "second_result": "胜"
+        },
+        {
+          "opponent": "GPT-6 Astra",
+          "first_round": 2,
+          "second_round": 13,
+          "first_result": "负",
+          "first_self": "剪刀",
+          "first_opp": "石头",
+          "second_self": "石头",
+          "second_opp": "石头",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": false,
+          "second_result": "平"
+        },
+        {
+          "opponent": "Claude Opus 5",
+          "first_round": 3,
+          "second_round": 14,
+          "first_result": "负",
+          "first_self": "布",
+          "first_opp": "剪刀",
+          "second_self": "石头",
+          "second_opp": "剪刀",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": true,
+          "second_result": "胜"
+        },
+        {
+          "opponent": "MiniMax M3",
+          "first_round": 4,
+          "second_round": 15,
+          "first_result": "负",
+          "first_self": "石头",
+          "first_opp": "布",
+          "second_self": "剪刀",
+          "second_opp": "石头",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "负"
+        },
+        {
+          "opponent": "Qwen 3.8 Max",
+          "first_round": 5,
+          "second_round": 16,
+          "first_result": "平",
+          "first_self": "剪刀",
+          "first_opp": "剪刀",
+          "second_self": "布",
+          "second_opp": "石头",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": true,
+          "second_result": "胜"
+        },
+        {
+          "opponent": "Gemini 3.8 Flash",
+          "first_round": 6,
+          "second_round": 17,
+          "first_result": "胜",
+          "first_self": "布",
+          "first_opp": "石头",
+          "second_self": "布",
+          "second_opp": "剪刀",
+          "same_move": true,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "负"
+        },
+        {
+          "opponent": "Kimi K3",
+          "first_round": 7,
+          "second_round": 18,
+          "first_result": "平",
+          "first_self": "石头",
+          "first_opp": "石头",
+          "second_self": "石头",
+          "second_opp": "布",
+          "same_move": true,
+          "counter_first_opp": false,
+          "counter_second_opp": false,
+          "second_result": "负"
+        },
+        {
+          "opponent": "GLM-5.3",
+          "first_round": 8,
+          "second_round": 19,
+          "first_result": "胜",
+          "first_self": "剪刀",
+          "first_opp": "布",
+          "second_self": "石头",
+          "second_opp": "石头",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": false,
+          "second_result": "平"
+        },
+        {
+          "opponent": "豆包 Seed 2.1 Turbo",
+          "first_round": 9,
+          "second_round": 20,
+          "first_result": "平",
+          "first_self": "布",
+          "first_opp": "布",
+          "second_self": "布",
+          "second_opp": "石头",
+          "same_move": true,
+          "counter_first_opp": false,
+          "counter_second_opp": true,
+          "second_result": "胜"
+        },
+        {
+          "opponent": "Meta Muse Spark 1.2",
+          "first_round": 10,
+          "second_round": 21,
+          "first_result": "负",
+          "first_self": "石头",
+          "first_opp": "布",
+          "second_self": "布",
+          "second_opp": "剪刀",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": false,
+          "second_result": "负"
+        },
+        {
+          "opponent": "Grok 4.6",
+          "first_round": 11,
+          "second_round": 22,
+          "first_result": "胜",
+          "first_self": "剪刀",
+          "first_opp": "布",
+          "second_self": "剪刀",
+          "second_opp": "石头",
+          "same_move": true,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "负"
+        }
+      ],
+      "result_transitions": {
+        "平->负": 2,
+        "负->负": 4,
+        "负->平": 2,
+        "平->胜": 4,
+        "胜->平": 3,
+        "负->胜": 2,
+        "胜->胜": 1,
+        "胜->负": 3
+      },
+      "records": [
+        {
+          "round": 1,
+          "opp_id": 3,
+          "opp": "腾讯 HY4",
+          "move": "石头",
+          "opp_move": "石头",
+          "result": "平",
+          "delta": 0,
+          "score_before": 0
+        },
+        {
+          "round": 2,
+          "opp_id": 12,
+          "opp": "GPT-6",
+          "move": "剪刀",
+          "opp_move": "石头",
+          "result": "负",
+          "delta": -1,
+          "score_before": 0
+        },
+        {
+          "round": 3,
+          "opp_id": 1,
+          "opp": "Claude",
+          "move": "布",
+          "opp_move": "剪刀",
+          "result": "负",
+          "delta": -1,
+          "score_before": -1
+        },
+        {
+          "round": 4,
+          "opp_id": 8,
+          "opp": "MiniMax",
+          "move": "石头",
+          "opp_move": "布",
+          "result": "负",
+          "delta": -1,
+          "score_before": -2
+        },
+        {
+          "round": 5,
+          "opp_id": 6,
+          "opp": "Qwen",
+          "move": "剪刀",
+          "opp_move": "剪刀",
+          "result": "平",
+          "delta": 0,
+          "score_before": -3
+        },
+        {
+          "round": 6,
+          "opp_id": 4,
+          "opp": "Gemini",
+          "move": "布",
+          "opp_move": "石头",
+          "result": "胜",
+          "delta": 1,
+          "score_before": -3
+        },
+        {
+          "round": 7,
+          "opp_id": 2,
+          "opp": "Kimi",
+          "move": "石头",
+          "opp_move": "石头",
+          "result": "平",
+          "delta": 0,
+          "score_before": -2
+        },
+        {
+          "round": 8,
+          "opp_id": 11,
+          "opp": "GLM",
+          "move": "剪刀",
+          "opp_move": "布",
+          "result": "胜",
+          "delta": 1,
+          "score_before": -2
+        },
+        {
+          "round": 9,
+          "opp_id": 9,
+          "opp": "豆包",
+          "move": "布",
+          "opp_move": "布",
+          "result": "平",
+          "delta": 0,
+          "score_before": -1
+        },
+        {
+          "round": 10,
+          "opp_id": 7,
+          "opp": "Meta",
+          "move": "石头",
+          "opp_move": "布",
+          "result": "负",
+          "delta": -1,
+          "score_before": -1
+        },
+        {
+          "round": 11,
+          "opp_id": 5,
+          "opp": "Grok",
+          "move": "剪刀",
+          "opp_move": "布",
+          "result": "胜",
+          "delta": 1,
+          "score_before": -2
+        },
+        {
+          "round": 12,
+          "opp_id": 3,
+          "opp": "腾讯 HY4",
+          "move": "布",
+          "opp_move": "石头",
+          "result": "胜",
+          "delta": 1,
+          "score_before": -1
+        },
+        {
+          "round": 13,
+          "opp_id": 12,
+          "opp": "GPT-6",
+          "move": "石头",
+          "opp_move": "石头",
+          "result": "平",
+          "delta": 0,
+          "score_before": 0
+        },
+        {
+          "round": 14,
+          "opp_id": 1,
+          "opp": "Claude",
+          "move": "石头",
+          "opp_move": "剪刀",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 0
+        },
+        {
+          "round": 15,
+          "opp_id": 8,
+          "opp": "MiniMax",
+          "move": "剪刀",
+          "opp_move": "石头",
+          "result": "负",
+          "delta": -1,
+          "score_before": 1
+        },
+        {
+          "round": 16,
+          "opp_id": 6,
+          "opp": "Qwen",
+          "move": "布",
+          "opp_move": "石头",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 0
+        },
+        {
+          "round": 17,
+          "opp_id": 4,
+          "opp": "Gemini",
+          "move": "布",
+          "opp_move": "剪刀",
+          "result": "负",
+          "delta": -1,
+          "score_before": 1
+        },
+        {
+          "round": 18,
+          "opp_id": 2,
+          "opp": "Kimi",
+          "move": "石头",
+          "opp_move": "布",
+          "result": "负",
+          "delta": -1,
+          "score_before": 0
+        },
+        {
+          "round": 19,
+          "opp_id": 11,
+          "opp": "GLM",
+          "move": "石头",
+          "opp_move": "石头",
+          "result": "平",
+          "delta": 0,
+          "score_before": -1
+        },
+        {
+          "round": 20,
+          "opp_id": 9,
+          "opp": "豆包",
+          "move": "布",
+          "opp_move": "石头",
+          "result": "胜",
+          "delta": 1,
+          "score_before": -1
+        },
+        {
+          "round": 21,
+          "opp_id": 7,
+          "opp": "Meta",
+          "move": "布",
+          "opp_move": "剪刀",
+          "result": "负",
+          "delta": -1,
+          "score_before": 0
+        },
+        {
+          "round": 22,
+          "opp_id": 5,
+          "opp": "Grok",
+          "move": "剪刀",
+          "opp_move": "石头",
+          "result": "负",
+          "delta": -1,
+          "score_before": -1
+        }
+      ]
+    },
+    "glm": {
+      "name": "GLM-5.3",
+      "stay_after": {
+        "胜": {
+          "n": 10,
+          "yes": 0,
+          "rate": 0.0
+        },
+        "负": {
+          "n": 4,
+          "yes": 0,
+          "rate": 0.0
+        },
+        "平": {
+          "n": 7,
+          "yes": 1,
+          "rate": 0.14285714285714285
+        }
+      },
+      "counter_after": {
+        "胜": {
+          "n": 10,
+          "yes": 0,
+          "rate": 0.0
+        },
+        "负": {
+          "n": 4,
+          "yes": 4,
+          "rate": 1.0
+        },
+        "平": {
+          "n": 7,
+          "yes": 0,
+          "rate": 0.0
+        }
+      },
+      "copy_after": {
+        "胜": {
+          "n": 10,
+          "yes": 10,
+          "rate": 1.0
+        },
+        "负": {
+          "n": 4,
+          "yes": 0,
+          "rate": 0.0
+        },
+        "平": {
+          "n": 7,
+          "yes": 1,
+          "rate": 0.14285714285714285
+        }
+      },
+      "transitions": {
+        "other": 20,
+        "same": 1
+      },
+      "pressure": {
+        "behind": {
+          "n": 2,
+          "moves": {
+            "布": 1,
+            "石头": 1
+          }
+        },
+        "tied": {
+          "n": 2,
+          "moves": {
+            "剪刀": 2
+          }
+        },
+        "ahead": {
+          "n": 18,
+          "moves": {
+            "布": 7,
+            "石头": 6,
+            "剪刀": 5
+          }
+        }
+      },
+      "same_opponent_adapt": [
+        {
+          "opponent": "Kimi K3",
+          "first_round": 1,
+          "second_round": 12,
+          "first_result": "负",
+          "first_self": "剪刀",
+          "first_opp": "石头",
+          "second_self": "布",
+          "second_opp": "布",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "平"
+        },
+        {
+          "opponent": "Claude Opus 5",
+          "first_round": 2,
+          "second_round": 13,
+          "first_result": "平",
+          "first_self": "布",
+          "first_opp": "布",
+          "second_self": "石头",
+          "second_opp": "剪刀",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": true,
+          "second_result": "胜"
+        },
+        {
+          "opponent": "豆包 Seed 2.1 Turbo",
+          "first_round": 3,
+          "second_round": 14,
+          "first_result": "胜",
+          "first_self": "石头",
+          "first_opp": "剪刀",
+          "second_self": "剪刀",
+          "second_opp": "布",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": true,
+          "second_result": "胜"
+        },
+        {
+          "opponent": "Meta Muse Spark 1.2",
+          "first_round": 4,
+          "second_round": 15,
+          "first_result": "胜",
+          "first_self": "剪刀",
+          "first_opp": "布",
+          "second_self": "布",
+          "second_opp": "剪刀",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": false,
+          "second_result": "负"
+        },
+        {
+          "opponent": "Grok 4.6",
+          "first_round": 5,
+          "second_round": 16,
+          "first_result": "平",
+          "first_self": "布",
+          "first_opp": "布",
+          "second_self": "石头",
+          "second_opp": "剪刀",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": true,
+          "second_result": "胜"
+        },
+        {
+          "opponent": "腾讯 HY4 Preview",
+          "first_round": 6,
+          "second_round": 17,
+          "first_result": "胜",
+          "first_self": "石头",
+          "first_opp": "剪刀",
+          "second_self": "剪刀",
+          "second_opp": "石头",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": false,
+          "second_result": "负"
+        },
+        {
+          "opponent": "GPT-6 Astra",
+          "first_round": 7,
+          "second_round": 18,
+          "first_result": "平",
+          "first_self": "剪刀",
+          "first_opp": "剪刀",
+          "second_self": "布",
+          "second_opp": "石头",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": true,
+          "second_result": "胜"
+        },
+        {
+          "opponent": "DeepSeek V4.1 Flash",
+          "first_round": 8,
+          "second_round": 19,
+          "first_result": "负",
+          "first_self": "布",
+          "first_opp": "剪刀",
+          "second_self": "石头",
+          "second_opp": "石头",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "平"
+        },
+        {
+          "opponent": "MiniMax M3",
+          "first_round": 9,
+          "second_round": 20,
+          "first_result": "胜",
+          "first_self": "石头",
+          "first_opp": "剪刀",
+          "second_self": "剪刀",
+          "second_opp": "布",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": true,
+          "second_result": "胜"
+        },
+        {
+          "opponent": "Qwen 3.8 Max",
+          "first_round": 10,
+          "second_round": 21,
+          "first_result": "平",
+          "first_self": "剪刀",
+          "first_opp": "剪刀",
+          "second_self": "布",
+          "second_opp": "石头",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": true,
+          "second_result": "胜"
+        },
+        {
+          "opponent": "Gemini 3.8 Flash",
+          "first_round": 11,
+          "second_round": 22,
+          "first_result": "平",
+          "first_self": "布",
+          "first_opp": "布",
+          "second_self": "石头",
+          "second_opp": "剪刀",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": true,
+          "second_result": "胜"
+        }
+      ],
+      "result_transitions": {
+        "负->平": 1,
+        "平->胜": 4,
+        "胜->胜": 4,
+        "胜->平": 4,
+        "平->负": 1,
+        "负->胜": 3,
+        "平->平": 2,
+        "胜->负": 2
+      },
+      "records": [
+        {
+          "round": 1,
+          "opp_id": 2,
+          "opp": "Kimi",
+          "move": "剪刀",
+          "opp_move": "石头",
+          "result": "负",
+          "delta": -1,
+          "score_before": 0
+        },
+        {
+          "round": 2,
+          "opp_id": 1,
+          "opp": "Claude",
+          "move": "布",
+          "opp_move": "布",
+          "result": "平",
+          "delta": 0,
+          "score_before": -1
+        },
+        {
+          "round": 3,
+          "opp_id": 9,
+          "opp": "豆包",
+          "move": "石头",
+          "opp_move": "剪刀",
+          "result": "胜",
+          "delta": 1,
+          "score_before": -1
+        },
+        {
+          "round": 4,
+          "opp_id": 7,
+          "opp": "Meta",
+          "move": "剪刀",
+          "opp_move": "布",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 0
+        },
+        {
+          "round": 5,
+          "opp_id": 5,
+          "opp": "Grok",
+          "move": "布",
+          "opp_move": "布",
+          "result": "平",
+          "delta": 0,
+          "score_before": 1
+        },
+        {
+          "round": 6,
+          "opp_id": 3,
+          "opp": "腾讯 HY4",
+          "move": "石头",
+          "opp_move": "剪刀",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 1
+        },
+        {
+          "round": 7,
+          "opp_id": 12,
+          "opp": "GPT-6",
+          "move": "剪刀",
+          "opp_move": "剪刀",
+          "result": "平",
+          "delta": 0,
+          "score_before": 2
+        },
+        {
+          "round": 8,
+          "opp_id": 10,
+          "opp": "DeepSeek",
+          "move": "布",
+          "opp_move": "剪刀",
+          "result": "负",
+          "delta": -1,
+          "score_before": 2
+        },
+        {
+          "round": 9,
+          "opp_id": 8,
+          "opp": "MiniMax",
+          "move": "石头",
+          "opp_move": "剪刀",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 1
+        },
+        {
+          "round": 10,
+          "opp_id": 6,
+          "opp": "Qwen",
+          "move": "剪刀",
+          "opp_move": "剪刀",
+          "result": "平",
+          "delta": 0,
+          "score_before": 2
+        },
+        {
+          "round": 11,
+          "opp_id": 4,
+          "opp": "Gemini",
+          "move": "布",
+          "opp_move": "布",
+          "result": "平",
+          "delta": 0,
+          "score_before": 2
+        },
+        {
+          "round": 12,
+          "opp_id": 2,
+          "opp": "Kimi",
+          "move": "布",
+          "opp_move": "布",
+          "result": "平",
+          "delta": 0,
+          "score_before": 2
+        },
+        {
+          "round": 13,
+          "opp_id": 1,
+          "opp": "Claude",
+          "move": "石头",
+          "opp_move": "剪刀",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 2
+        },
+        {
+          "round": 14,
+          "opp_id": 9,
+          "opp": "豆包",
+          "move": "剪刀",
+          "opp_move": "布",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 3
+        },
+        {
+          "round": 15,
+          "opp_id": 7,
+          "opp": "Meta",
+          "move": "布",
+          "opp_move": "剪刀",
+          "result": "负",
+          "delta": -1,
+          "score_before": 4
+        },
+        {
+          "round": 16,
+          "opp_id": 5,
+          "opp": "Grok",
+          "move": "石头",
+          "opp_move": "剪刀",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 3
+        },
+        {
+          "round": 17,
+          "opp_id": 3,
+          "opp": "腾讯 HY4",
+          "move": "剪刀",
+          "opp_move": "石头",
+          "result": "负",
+          "delta": -1,
+          "score_before": 4
+        },
+        {
+          "round": 18,
+          "opp_id": 12,
+          "opp": "GPT-6",
+          "move": "布",
+          "opp_move": "石头",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 3
+        },
+        {
+          "round": 19,
+          "opp_id": 10,
+          "opp": "DeepSeek",
+          "move": "石头",
+          "opp_move": "石头",
+          "result": "平",
+          "delta": 0,
+          "score_before": 4
+        },
+        {
+          "round": 20,
+          "opp_id": 8,
+          "opp": "MiniMax",
+          "move": "剪刀",
+          "opp_move": "布",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 4
+        },
+        {
+          "round": 21,
+          "opp_id": 6,
+          "opp": "Qwen",
+          "move": "布",
+          "opp_move": "石头",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 5
+        },
+        {
+          "round": 22,
+          "opp_id": 4,
+          "opp": "Gemini",
+          "move": "石头",
+          "opp_move": "剪刀",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 6
+        }
+      ]
+    },
+    "gpt": {
+      "name": "GPT-6 Astra",
+      "stay_after": {
+        "胜": {
+          "n": 7,
+          "yes": 3,
+          "rate": 0.42857142857142855
+        },
+        "负": {
+          "n": 7,
+          "yes": 4,
+          "rate": 0.5714285714285714
+        },
+        "平": {
+          "n": 7,
+          "yes": 4,
+          "rate": 0.5714285714285714
+        }
+      },
+      "counter_after": {
+        "胜": {
+          "n": 7,
+          "yes": 3,
+          "rate": 0.42857142857142855
+        },
+        "负": {
+          "n": 7,
+          "yes": 3,
+          "rate": 0.42857142857142855
+        },
+        "平": {
+          "n": 7,
+          "yes": 2,
+          "rate": 0.2857142857142857
+        }
+      },
+      "copy_after": {
+        "胜": {
+          "n": 7,
+          "yes": 1,
+          "rate": 0.14285714285714285
+        },
+        "负": {
+          "n": 7,
+          "yes": 0,
+          "rate": 0.0
+        },
+        "平": {
+          "n": 7,
+          "yes": 4,
+          "rate": 0.5714285714285714
+        }
+      },
+      "transitions": {
+        "same": 11,
+        "counter_own": 5,
+        "other": 5
+      },
+      "pressure": {
+        "behind": {
+          "n": 0,
+          "moves": {}
+        },
+        "tied": {
+          "n": 8,
+          "moves": {
+            "石头": 7,
+            "剪刀": 1
+          }
+        },
+        "ahead": {
+          "n": 14,
+          "moves": {
+            "布": 3,
+            "剪刀": 2,
+            "石头": 9
+          }
+        }
+      },
+      "same_opponent_adapt": [
+        {
+          "opponent": "Claude Opus 5",
+          "first_round": 1,
+          "second_round": 12,
+          "first_result": "平",
+          "first_self": "石头",
+          "first_opp": "石头",
+          "second_self": "石头",
+          "second_opp": "布",
+          "same_move": true,
+          "counter_first_opp": false,
+          "counter_second_opp": false,
+          "second_result": "负"
+        },
+        {
+          "opponent": "DeepSeek V4.1 Flash",
+          "first_round": 2,
+          "second_round": 13,
+          "first_result": "胜",
+          "first_self": "石头",
+          "first_opp": "剪刀",
+          "second_self": "石头",
+          "second_opp": "石头",
+          "same_move": true,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "平"
+        },
+        {
+          "opponent": "MiniMax M3",
+          "first_round": 3,
+          "second_round": 14,
+          "first_result": "胜",
+          "first_self": "布",
+          "first_opp": "石头",
+          "second_self": "石头",
+          "second_opp": "剪刀",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": true,
+          "second_result": "胜"
+        },
+        {
+          "opponent": "Qwen 3.8 Max",
+          "first_round": 4,
+          "second_round": 15,
+          "first_result": "负",
+          "first_self": "剪刀",
+          "first_opp": "石头",
+          "second_self": "石头",
+          "second_opp": "剪刀",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": true,
+          "second_result": "胜"
+        },
+        {
+          "opponent": "Gemini 3.8 Flash",
+          "first_round": 5,
+          "second_round": 16,
+          "first_result": "平",
+          "first_self": "布",
+          "first_opp": "布",
+          "second_self": "石头",
+          "second_opp": "石头",
+          "same_move": false,
+          "counter_first_opp": false,
+          "counter_second_opp": false,
+          "second_result": "平"
+        },
+        {
+          "opponent": "Kimi K3",
+          "first_round": 6,
+          "second_round": 17,
+          "first_result": "负",
+          "first_self": "石头",
+          "first_opp": "布",
+          "second_self": "石头",
+          "second_opp": "剪刀",
+          "same_move": true,
+          "counter_first_opp": false,
+          "counter_second_opp": true,
+          "second_result": "胜"
+        },
+        {
+          "opponent": "GLM-5.3",
+          "first_round": 7,
+          "second_round": 18,
+          "first_result": "平",
+          "first_self": "剪刀",
+          "first_opp": "剪刀",
+          "second_self": "石头",
+          "second_opp": "布",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "负"
+        },
+        {
+          "opponent": "豆包 Seed 2.1 Turbo",
+          "first_round": 8,
+          "second_round": 19,
+          "first_result": "胜",
+          "first_self": "石头",
+          "first_opp": "剪刀",
+          "second_self": "石头",
+          "second_opp": "布",
+          "same_move": true,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "负"
+        },
+        {
+          "opponent": "Meta Muse Spark 1.2",
+          "first_round": 9,
+          "second_round": 20,
+          "first_result": "负",
+          "first_self": "布",
+          "first_opp": "剪刀",
+          "second_self": "石头",
+          "second_opp": "石头",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "平"
+        },
+        {
+          "opponent": "Grok 4.6",
+          "first_round": 10,
+          "second_round": 21,
+          "first_result": "胜",
+          "first_self": "石头",
+          "first_opp": "剪刀",
+          "second_self": "石头",
+          "second_opp": "布",
+          "same_move": true,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "负"
+        },
+        {
+          "opponent": "腾讯 HY4 Preview",
+          "first_round": 11,
+          "second_round": 22,
+          "first_result": "平",
+          "first_self": "剪刀",
+          "first_opp": "剪刀",
+          "second_self": "石头",
+          "second_opp": "布",
+          "same_move": false,
+          "counter_first_opp": true,
+          "counter_second_opp": false,
+          "second_result": "负"
+        }
+      ],
+      "result_transitions": {
+        "平->胜": 4,
+        "胜->胜": 2,
+        "胜->负": 3,
+        "负->平": 4,
+        "平->负": 3,
+        "负->胜": 1,
+        "胜->平": 2,
+        "负->负": 2
+      },
+      "records": [
+        {
+          "round": 1,
+          "opp_id": 1,
+          "opp": "Claude",
+          "move": "石头",
+          "opp_move": "石头",
+          "result": "平",
+          "delta": 0,
+          "score_before": 0
+        },
+        {
+          "round": 2,
+          "opp_id": 10,
+          "opp": "DeepSeek",
+          "move": "石头",
+          "opp_move": "剪刀",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 0
+        },
+        {
+          "round": 3,
+          "opp_id": 8,
+          "opp": "MiniMax",
+          "move": "布",
+          "opp_move": "石头",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 1
+        },
+        {
+          "round": 4,
+          "opp_id": 6,
+          "opp": "Qwen",
+          "move": "剪刀",
+          "opp_move": "石头",
+          "result": "负",
+          "delta": -1,
+          "score_before": 2
+        },
+        {
+          "round": 5,
+          "opp_id": 4,
+          "opp": "Gemini",
+          "move": "布",
+          "opp_move": "布",
+          "result": "平",
+          "delta": 0,
+          "score_before": 1
+        },
+        {
+          "round": 6,
+          "opp_id": 2,
+          "opp": "Kimi",
+          "move": "石头",
+          "opp_move": "布",
+          "result": "负",
+          "delta": -1,
+          "score_before": 1
+        },
+        {
+          "round": 7,
+          "opp_id": 11,
+          "opp": "GLM",
+          "move": "剪刀",
+          "opp_move": "剪刀",
+          "result": "平",
+          "delta": 0,
+          "score_before": 0
+        },
+        {
+          "round": 8,
+          "opp_id": 9,
+          "opp": "豆包",
+          "move": "石头",
+          "opp_move": "剪刀",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 0
+        },
+        {
+          "round": 9,
+          "opp_id": 7,
+          "opp": "Meta",
+          "move": "布",
+          "opp_move": "剪刀",
+          "result": "负",
+          "delta": -1,
+          "score_before": 1
+        },
+        {
+          "round": 10,
+          "opp_id": 5,
+          "opp": "Grok",
+          "move": "石头",
+          "opp_move": "剪刀",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 0
+        },
+        {
+          "round": 11,
+          "opp_id": 3,
+          "opp": "腾讯 HY4",
+          "move": "剪刀",
+          "opp_move": "剪刀",
+          "result": "平",
+          "delta": 0,
+          "score_before": 1
+        },
+        {
+          "round": 12,
+          "opp_id": 1,
+          "opp": "Claude",
+          "move": "石头",
+          "opp_move": "布",
+          "result": "负",
+          "delta": -1,
+          "score_before": 1
+        },
+        {
+          "round": 13,
+          "opp_id": 10,
+          "opp": "DeepSeek",
+          "move": "石头",
+          "opp_move": "石头",
+          "result": "平",
+          "delta": 0,
+          "score_before": 0
+        },
+        {
+          "round": 14,
+          "opp_id": 8,
+          "opp": "MiniMax",
+          "move": "石头",
+          "opp_move": "剪刀",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 0
+        },
+        {
+          "round": 15,
+          "opp_id": 6,
+          "opp": "Qwen",
+          "move": "石头",
+          "opp_move": "剪刀",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 1
+        },
+        {
+          "round": 16,
+          "opp_id": 4,
+          "opp": "Gemini",
+          "move": "石头",
+          "opp_move": "石头",
+          "result": "平",
+          "delta": 0,
+          "score_before": 2
+        },
+        {
+          "round": 17,
+          "opp_id": 2,
+          "opp": "Kimi",
+          "move": "石头",
+          "opp_move": "剪刀",
+          "result": "胜",
+          "delta": 1,
+          "score_before": 2
+        },
+        {
+          "round": 18,
+          "opp_id": 11,
+          "opp": "GLM",
+          "move": "石头",
+          "opp_move": "布",
+          "result": "负",
+          "delta": -1,
+          "score_before": 3
+        },
+        {
+          "round": 19,
+          "opp_id": 9,
+          "opp": "豆包",
+          "move": "石头",
+          "opp_move": "布",
+          "result": "负",
+          "delta": -1,
+          "score_before": 2
+        },
+        {
+          "round": 20,
+          "opp_id": 7,
+          "opp": "Meta",
+          "move": "石头",
+          "opp_move": "石头",
+          "result": "平",
+          "delta": 0,
+          "score_before": 1
+        },
+        {
+          "round": 21,
+          "opp_id": 5,
+          "opp": "Grok",
+          "move": "石头",
+          "opp_move": "布",
+          "result": "负",
+          "delta": -1,
+          "score_before": 1
+        },
+        {
+          "round": 22,
+          "opp_id": 3,
+          "opp": "腾讯 HY4",
+          "move": "石头",
+          "opp_move": "布",
+          "result": "负",
+          "delta": -1,
+          "score_before": 0
+        }
+      ]
+    }
+  }
+}

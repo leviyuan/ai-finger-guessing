@@ -1,0 +1,436 @@
+[
+  {
+    "public_path": "data/rounds/round-01.json",
+    "source_basename": "round-01.json",
+    "sha256": "39fcf8f8577bc1f2b681b0d450aa4ad7e85f6fed3a1398b5f1c02f52b571380f",
+    "bytes": 11348,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "data/rounds/round-02.json",
+    "source_basename": "round-02.json",
+    "sha256": "ab01ecf1ce9a66a43ffedf455797336fa99d31cf988c5a6f064e66054280dfb4",
+    "bytes": 11251,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "data/rounds/round-03.json",
+    "source_basename": "round-03.json",
+    "sha256": "dd60c6704a721b62123b870e630a15cec43dfe55004a61d53256973ddac7a079",
+    "bytes": 11302,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "data/rounds/round-04.json",
+    "source_basename": "round-04.json",
+    "sha256": "5eeb76b850e86278f4be83fd5fbca05ac79cef12a597a81c0c114e5ab4eb4b0c",
+    "bytes": 11311,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "data/rounds/round-05.json",
+    "source_basename": "round-05.json",
+    "sha256": "e0aefc51b685ac8bd83a7d5d7ff6a1a4275ddc930048824c99b5c3c84f99b577",
+    "bytes": 11290,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "data/rounds/round-06.json",
+    "source_basename": "round-06.json",
+    "sha256": "b756640273f3f9a7b704546915be842363ead3575fb4a8cc84277678b55d3eeb",
+    "bytes": 11291,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "data/rounds/round-07.json",
+    "source_basename": "round-07.json",
+    "sha256": "103216ca97ea1f38921d378e72fc9e3806a91b11679cd387a3a8ccf1dadb23c2",
+    "bytes": 11330,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "data/rounds/round-08.json",
+    "source_basename": "round-08.json",
+    "sha256": "64c0d35585d311cc1ee7b673b10641c100593d37739d876fa4f6dfd8f3c2e8bb",
+    "bytes": 11284,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "data/rounds/round-09.json",
+    "source_basename": "round-09.json",
+    "sha256": "8d0c72573fae61891e17e3f9703af98466edefd0047927b88b49a3b03963ae8b",
+    "bytes": 11297,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "data/rounds/round-10.json",
+    "source_basename": "round-10.json",
+    "sha256": "05684c0776816024008dbc60e7d01fc8b2fbcb74c3c540475cd417ff6ebc9006",
+    "bytes": 11327,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "data/rounds/round-11.json",
+    "source_basename": "round-11.json",
+    "sha256": "4661fe0dfa41476cc92a647a03ed7d2acdba123610d2471b8f4b90ca72262385",
+    "bytes": 11309,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "data/rounds/round-12.json",
+    "source_basename": "round-12.json",
+    "sha256": "449ce0492a3d69b0977430a4a1033ffea2703b71485307192cf7287a64c36e2e",
+    "bytes": 11249,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "data/rounds/round-13.json",
+    "source_basename": "round-13.json",
+    "sha256": "9e21afb2aeec48811f3db4309bfac7604bd2f92cf2f47ab9fa830747ba4e89b0",
+    "bytes": 11345,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "data/rounds/round-14.json",
+    "source_basename": "round-14.json",
+    "sha256": "4552880abaff814adae539d6fe77e121622d4675e12a5454c82219b21d37eb80",
+    "bytes": 11353,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "data/rounds/round-15.json",
+    "source_basename": "round-15.json",
+    "sha256": "5c9432baa8c6b611c56c6d398a6f169215c2ee83733b7cfa16b95335b13108c9",
+    "bytes": 11329,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "data/rounds/round-16.json",
+    "source_basename": "round-16.json",
+    "sha256": "12ef159bc69e93500aa5cc390ca4453030bad37e5ff797cd3cf3f25279308e5c",
+    "bytes": 11312,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "data/rounds/round-17.json",
+    "source_basename": "round-17.json",
+    "sha256": "035a746106088abc4a6fcc3c0c7dea9489dc53d95e0ec7faad047f0e5cbb1b73",
+    "bytes": 11317,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "data/rounds/round-18.json",
+    "source_basename": "round-18.json",
+    "sha256": "a823ac91a902cd5b30b1b67f7f3d472102d1b80003a67b8ccc2d276ddb494390",
+    "bytes": 11290,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "data/rounds/round-19.json",
+    "source_basename": "round-19.json",
+    "sha256": "8d43ac70fc224e1a376fcce2590fd54ecd6c715bc415abf0b029542148cc65a2",
+    "bytes": 11322,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "data/rounds/round-20.json",
+    "source_basename": "round-20.json",
+    "sha256": "337012705a9f8d0ef4e65a80be70bd89f781ece8e0a6eb24f5d1d4da2d79b131",
+    "bytes": 11316,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "data/rounds/round-21.json",
+    "source_basename": "round-21.json",
+    "sha256": "af2e3b6a52f1eba10824971c9e035bbab9747227c25aad2b640a63aee4a69730",
+    "bytes": 11291,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "data/rounds/round-22.json",
+    "source_basename": "round-22.json",
+    "sha256": "f4cb73f5a501266535a9bfcae79eacddea41bd87d797e07db700947519ea433e",
+    "bytes": 11298,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "data/roster.json",
+    "source_basename": "roster-snapshot.json",
+    "sha256": "c1228801e32cdaa2bb66e292b7f108f4d128d12c39ac35cbd64afb6308d2159d",
+    "bytes": 2848,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "data/schedule.json",
+    "source_basename": "schedule.json",
+    "sha256": "c955f7e473ca1904ccece88c4e4ff69087543d6c5474ecefd00f129c3d48cd34",
+    "bytes": 9014,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "reviews/original/claude.json",
+    "source_basename": "claude.json",
+    "sha256": "f6612126a90e71f7e621e56b76197b42136cd9f9450685557ea3f655c42ab182",
+    "bytes": 5416,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "reviews/original/glm.json",
+    "source_basename": "glm.json",
+    "sha256": "47f8b7aadd2f31cf8829b329443533138feb76c05979b9626b9eb5f48ed2c0e7",
+    "bytes": 3626,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "reviews/original/meta.json",
+    "source_basename": "meta.json",
+    "sha256": "58fabd91defde5746ac45f1caaa45470ec28b1fe92dd4e4ff9392299fddce57c",
+    "bytes": 4124,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "reviews/original/qwen.json",
+    "source_basename": "qwen.json",
+    "sha256": "df02c8b10e90976d0b735cfb863cb01382cab9fe7d57e8cf4c652aefe1a407f8",
+    "bytes": 3818,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "reviews/prompts/claude.txt",
+    "source_basename": "claude.txt",
+    "sha256": "7800a6cbf2f7dfd30a8cae79f593310b5f9661b6bf1a60086baf2a21edde4784",
+    "bytes": 9683,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "reviews/prompts/glm.txt",
+    "source_basename": "glm.txt",
+    "sha256": "584abb5583612f7eb63d629b8c634679957ea70b29a599dfabf9725eb896451f",
+    "bytes": 9629,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "reviews/prompts/meta.txt",
+    "source_basename": "meta.txt",
+    "sha256": "6a0ccd12fc17aa006331a314127ca9195cdf93d156cd0b93882b1489cb1df9d0",
+    "bytes": 9546,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "reviews/prompts/qwen.txt",
+    "source_basename": "qwen.txt",
+    "sha256": "72b041ff367682f5a88da153e5e3e252ee7a5496e4f48263730208e3d0ff9cf2",
+    "bytes": 9663,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "probe/original/claude.json",
+    "source_basename": "claude.json",
+    "sha256": "51575bd47cb9eb15c964e51c1ef588b894d49808e442b3e318843c5a609419ba",
+    "bytes": 912,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "probe/original/deepseek.json",
+    "source_basename": "deepseek.json",
+    "sha256": "502ebfeea5b7a3cd591a75906fad239bc61c5fcacabccafad9c9cbc65cd236d5",
+    "bytes": 891,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "probe/original/doubao.json",
+    "source_basename": "doubao.json",
+    "sha256": "02d5ed4f56243ccf40b6586402da716de5fd9cfd667c308837042fb7185a42c6",
+    "bytes": 941,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "probe/original/gemini.json",
+    "source_basename": "gemini.json",
+    "sha256": "4082e14029af44db53c485321eeeb17fd06f0c45d743ea35bd50262eeed53bb7",
+    "bytes": 950,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "probe/original/glm.json",
+    "source_basename": "glm.json",
+    "sha256": "04f948263175e4e01f76d9a1cf6db5c697af717aaaffc1caabc0c7a398c34ce9",
+    "bytes": 1001,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "probe/original/gpt.json",
+    "source_basename": "gpt.json",
+    "sha256": "a4212cbd3646fa1c40dbd4e9a1e0c764b5dd158267b34f817090d505be1780cb",
+    "bytes": 816,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "probe/original/grok.json",
+    "source_basename": "grok.json",
+    "sha256": "b43a32a0987cc1cfd0442705c38b181b9861192cc1783b30d1711114c2372e7e",
+    "bytes": 883,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "probe/original/hunyuan.json",
+    "source_basename": "hunyuan.json",
+    "sha256": "448d82540e61bb2356108023129a686bd334f9bab959fc6515267ae2ca855761",
+    "bytes": 881,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "probe/original/kimi.json",
+    "source_basename": "kimi.json",
+    "sha256": "065b9b96d93b5419a4673716c2ab0c024a852bcb72090f50dd67fda59f10c2a0",
+    "bytes": 903,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "probe/original/meta.json",
+    "source_basename": "meta.json",
+    "sha256": "48fb26bf6ba7282f7aa8e4abbd8da8569652a78489b933e89cc7773ebad3d655",
+    "bytes": 846,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "probe/original/minimax.json",
+    "source_basename": "minimax.json",
+    "sha256": "20d6272e77357d4d9006e1f41102347445dbd0afdefc9dcc85f625a3f9aa1b4e",
+    "bytes": 858,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "probe/original/qwen.json",
+    "source_basename": "qwen.json",
+    "sha256": "d6cfb53cde9567774677e1ed6e01bedd7cfbd3cdc41c6b3d5b096095c4f361b9",
+    "bytes": 1006,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "historical/analysis.md",
+    "source_basename": "analysis.md",
+    "sha256": "252f2258046424a89d9f4744b61b4bc9c871b684667d44c1b320ddcc900da8ef",
+    "bytes": 21366,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "historical/analysis.json",
+    "source_basename": "analysis.json",
+    "sha256": "526c9e5a19f31588464a861e3860a867486ff934569d13433b5aa178c9039e7a",
+    "bytes": 219424,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "historical/behavior-analysis.md",
+    "source_basename": "behavior-analysis.md",
+    "sha256": "1d703fca15200d778a941f9d59642f7eb01ce6a6997756224d94c49f90190cf9",
+    "bytes": 3298,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "historical/behavior-analysis.json",
+    "source_basename": "behavior-analysis.json",
+    "sha256": "a814cca9a692abb400a0972361f1804bc80d85634babd63f13ece26912a5f9e3",
+    "bytes": 137960,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "historical/consumption.md",
+    "source_basename": "consumption.md",
+    "sha256": "2ae614385b40c1709b2c9152ce260bbc4c7c1337e5f88c7c9946a1303da86a94",
+    "bytes": 3330,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "historical/consumption.json",
+    "source_basename": "consumption.json",
+    "sha256": "6c2f2bd31cae44ff76d96ad12ee475aa5da43fcf1740855f83b2c9d7fc3dcd31",
+    "bytes": 8169,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "historical/results-summary.md",
+    "source_basename": "results-summary.md",
+    "sha256": "58bdd3b73a1eec29f0d914578f7f63b0e7847ae4db216c123260310bee2de4d0",
+    "bytes": 650,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "historical/results-summary.json",
+    "source_basename": "results-summary.json",
+    "sha256": "f612f171236cce48c64f606045cce776081d018a401651366c81c8e6d0604750",
+    "bytes": 2382,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "historical/state.json",
+    "source_basename": "state.json",
+    "sha256": "3c3d79033d3a3024a26df0b703c56668e9204a2772ef34098222e945db78797f",
+    "bytes": 15184,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "source/formal_run_12x10.py",
+    "source_basename": "formal_run_12x10.py",
+    "sha256": "8cd16035dc5d56f7e7072400697dcb1cbde88db83752ad527f1aab2d0fc2f371",
+    "bytes": 29670,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "source/formal_run_12x22.py",
+    "source_basename": "formal_run_12x22.py",
+    "sha256": "7a155b5f28ef048a911d5b9a9b7dab223e3c7c9955b26e6e6ce392f5b86b66ab",
+    "bytes": 30385,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "source/probe_reasoned_round.py",
+    "source_basename": "probe_reasoned_round.py",
+    "sha256": "35c648d8cd42044cb924e269e35a719d480a6bce5f77fb9f8772e6a2e7ed01b3",
+    "bytes": 8484,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "source/build_formal_v4_video.py",
+    "source_basename": "build_formal_v4_video.py",
+    "sha256": "71f61032f60209495e9f3f93eb7bfdc1ce39fb09a7ea5c3b07f04ff17260b676",
+    "bytes": 8520,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "source/formal_v4_animation_12.js",
+    "source_basename": "formal_v4_animation_12.js",
+    "sha256": "641f036602a5acd295c7c6049eed8fd95f48589f9c4a4070f8a42c14127fa894",
+    "bytes": 14150,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "video/formal-v8-video-check.json",
+    "source_basename": "formal-v8-video-check.json",
+    "sha256": "f4b2ff4cf88e3cef75ecdc9f76f415aab521f0c108ab794b8c6d8359be776ece",
+    "bytes": 1892,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "video/formal-v8-browser-check.json",
+    "source_basename": "formal-v8-browser-check.json",
+    "sha256": "69e789a39b2fc89e6497eabe609e9752a5c3e4429d73753b6901b432ee32c1ee",
+    "bytes": 8752,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "video/formal-v8-video-plan.json",
+    "source_basename": "formal-v8-video-plan.json",
+    "sha256": "2c1c0179dd60eaedb5fe189ce9dab8679ba47905b13bfd85f2a0d2b049da3cd9",
+    "bytes": 46821,
+    "byte_preserved": true
+  },
+  {
+    "public_path": "video/rps-carousel-v8.html",
+    "source_basename": "rps-carousel-v8-varied-danmaku.html",
+    "sha256": "40123a94efec88891610c7aee4b941041e9b927a3c0ca5eea2061e86131e662e",
+    "bytes": 103435,
+    "byte_preserved": true
+  }
+]

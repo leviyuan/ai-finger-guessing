@@ -1,0 +1,21 @@
+{
+  "conclusion": "石头克制高频剪刀应手，且是我收益最高的一手。",
+  "cost_usd": null,
+  "duration_ms": 13451,
+  "effort": "max",
+  "model": "GLM-5.3",
+  "move": "石头",
+  "player_key": "glm",
+  "raw_output": "{\"reason\":\"对Kimi两局：r1其石头胜我剪刀，r12互布平。全场对手对我应手以剪刀最多(10/22)，我石头7次净+6为最佳手，故续选石头。\",\"conclusion\":\"石头克制高频剪刀应手，且是我收益最高的一手。\",\"move\":\"石头\"}",
+  "reason": "对Kimi两局：r1其石头胜我剪刀，r12互布平。全场对手对我应手以剪刀最多(10/22)，我石头7次净+6为最佳手，故续选石头。",
+  "run_id": "agent_5cb534d2-60fd-4985-866e-2015cea4a767",
+  "session_id": "3f4275d1-f8e6-47bf-bc1f-a8f61d331a43",
+  "status": "completed",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1344,
+    "input_tokens": 44831,
+    "output_tokens": 471,
+    "total_tokens": 46646
+  }
+}

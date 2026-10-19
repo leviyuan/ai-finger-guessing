@@ -1,0 +1,400 @@
+{
+  "checkedAt": "2026-09-19T03:26:40.086Z",
+  "duration": 34,
+  "gameEnd": 18.4,
+  "danmakuEnd": 29.97272727272727,
+  "config": {
+    "font_size_range": [
+      42,
+      60
+    ],
+    "name_size": 30,
+    "speed_range": [
+      270,
+      450
+    ],
+    "y_range": [
+      680,
+      1290
+    ],
+    "directions": [
+      -1,
+      1
+    ],
+    "gap": 96,
+    "edge_margin": 40,
+    "authorship": "Scripted character banter based on this game; not verbatim model replies."
+  },
+  "layout": [
+    {
+      "text": "别急，我先把你们的套路读完。",
+      "color": "#b3ffc1",
+      "y": 700,
+      "speed": 340,
+      "font_size": 46,
+      "direction": -1,
+      "start": 0.35,
+      "player_id": 11,
+      "lane": 0,
+      "duration": 5.929411764705883,
+      "width": 856,
+      "label": "GLM：",
+      "labelWidth": 98,
+      "bodyOffset": 188
+    },
+    {
+      "text": "我不连手，但我连胜。",
+      "color": "#8ed8ee",
+      "y": 820,
+      "speed": 270,
+      "font_size": 58,
+      "direction": 1,
+      "start": 0.6,
+      "player_id": 7,
+      "lane": 1,
+      "duration": 7.2481481481481485,
+      "width": 797,
+      "label": "Meta：",
+      "labelWidth": 103,
+      "bodyOffset": 193
+    },
+    {
+      "text": "前半冲太快，后半先喘口气。",
+      "color": "#ffd790",
+      "y": 980,
+      "speed": 410,
+      "font_size": 44,
+      "direction": -1,
+      "start": 0.95,
+      "player_id": 2,
+      "lane": 2,
+      "duration": 4.734146341463415,
+      "width": 781,
+      "label": "Kimi：",
+      "labelWidth": 95,
+      "bodyOffset": 185
+    },
+    {
+      "text": "剪刀不是偏科，是稳定输出。",
+      "color": "#b9a8ff",
+      "y": 1140,
+      "speed": 300,
+      "font_size": 52,
+      "direction": 1,
+      "start": 1.25,
+      "player_id": 4,
+      "lane": 3,
+      "duration": 6.9366666666666665,
+      "width": 921,
+      "label": "Gemini：",
+      "labelWidth": 131,
+      "bodyOffset": 221
+    },
+    {
+      "text": "管你出什么，反正我要纯随机。",
+      "color": "#9fe4c1",
+      "y": 1290,
+      "speed": 380,
+      "font_size": 48,
+      "direction": -1,
+      "start": 1.55,
+      "player_id": 3,
+      "lane": 4,
+      "duration": 5.544736842105263,
+      "width": 947,
+      "label": "腾讯 HY4：",
+      "labelWidth": 161,
+      "bodyOffset": 251
+    },
+    {
+      "text": "哎呀，我怎么出了这么多石头啊。",
+      "color": "#a7d7ff",
+      "y": 760,
+      "speed": 450,
+      "font_size": 42,
+      "direction": 1,
+      "start": 2.05,
+      "player_id": 12,
+      "lane": 5,
+      "duration": 4.513333333333334,
+      "width": 871,
+      "label": "GPT-6：",
+      "labelWidth": 127,
+      "bodyOffset": 217
+    },
+    {
+      "text": "前半送的分，后半我收回来了。",
+      "color": "#ffb38c",
+      "y": 900,
+      "speed": 290,
+      "font_size": 60,
+      "direction": -1,
+      "start": 2.45,
+      "player_id": 5,
+      "lane": 6,
+      "duration": 7.63103448275862,
+      "width": 1053,
+      "label": "Grok：",
+      "labelWidth": 99,
+      "bodyOffset": 189
+    },
+    {
+      "text": "我很均衡，分数不太均衡。",
+      "color": "#8ed8ee",
+      "y": 1060,
+      "speed": 360,
+      "font_size": 45,
+      "direction": 1,
+      "start": 2.85,
+      "player_id": 10,
+      "lane": 7,
+      "duration": 5.522222222222222,
+      "width": 828,
+      "label": "DeepSeek：",
+      "labelWidth": 174,
+      "bodyOffset": 264
+    },
+    {
+      "text": "布阵很厚，胜负看运。",
+      "color": "#e1c5ff",
+      "y": 1220,
+      "speed": 420,
+      "font_size": 50,
+      "direction": -1,
+      "start": 3.25,
+      "player_id": 8,
+      "lane": 8,
+      "duration": 4.585714285714285,
+      "width": 766,
+      "label": "MiniMax：",
+      "labelWidth": 152,
+      "bodyOffset": 242
+    },
+    {
+      "text": "前半挨揍，后半止血。",
+      "color": "#ffc08d",
+      "y": 680,
+      "speed": 315,
+      "font_size": 54,
+      "direction": 1,
+      "start": 3.7,
+      "player_id": 9,
+      "lane": 9,
+      "duration": 6.044444444444444,
+      "width": 744,
+      "label": "豆包：",
+      "labelWidth": 90,
+      "bodyOffset": 180
+    },
+    {
+      "text": "我很优雅地随机，然后优雅地输。",
+      "color": "#d6dce8",
+      "y": 880,
+      "speed": 395,
+      "font_size": 46,
+      "direction": -1,
+      "start": 4.1,
+      "player_id": 1,
+      "lane": 10,
+      "duration": 5.30126582278481,
+      "width": 934,
+      "label": "Claude：",
+      "labelWidth": 130,
+      "bodyOffset": 220
+    },
+    {
+      "text": "记得太多，赢得太少。",
+      "color": "#ff9b9b",
+      "y": 1180,
+      "speed": 275,
+      "font_size": 56,
+      "direction": 1,
+      "start": 4.5,
+      "player_id": 6,
+      "lane": 11,
+      "duration": 7.072727272727272,
+      "width": 785,
+      "label": "Qwen：",
+      "labelWidth": 111,
+      "bodyOffset": 201
+    }
+  ],
+  "observed": {
+    "1": {
+      "minX": -973.5000000000009,
+      "maxX": 1119.9999999999993,
+      "frames": 160
+    },
+    "2": {
+      "minX": -813.8333333333337,
+      "maxX": 1113.1666666666658,
+      "frames": 142
+    },
+    "3": {
+      "minX": -976.3333333333335,
+      "maxX": 1113.6666666666667,
+      "frames": 166
+    },
+    "4": {
+      "minX": -955.9999999999992,
+      "maxX": 1114.0000000000005,
+      "frames": 208
+    },
+    "5": {
+      "minX": -1088.833333333333,
+      "maxX": 1115.166666666666,
+      "frames": 229
+    },
+    "6": {
+      "minX": -825,
+      "maxX": 1118.3333333333333,
+      "frames": 213
+    },
+    "7": {
+      "minX": -836.9999999999997,
+      "maxX": 1116.0000000000007,
+      "frames": 218
+    },
+    "8": {
+      "minX": -805.0000000000009,
+      "maxX": 1112.9999999999989,
+      "frames": 138
+    },
+    "9": {
+      "minX": -783.9999999999992,
+      "maxX": 1116.5000000000002,
+      "frames": 182
+    },
+    "10": {
+      "minX": -861.9999999999999,
+      "maxX": 1118.0000000000002,
+      "frames": 166
+    },
+    "11": {
+      "minX": -891.6666666666677,
+      "maxX": 1114.3333333333333,
+      "frames": 178
+    },
+    "12": {
+      "minX": -903.5,
+      "maxX": 1106.500000000001,
+      "frames": 135
+    }
+  },
+  "minGap": null,
+  "issues": [],
+  "canvas": [
+    1440,
+    2560
+  ],
+  "toolbarHidden": true,
+  "errors": [],
+  "seekCheck": {
+    "identicalState": true,
+    "changedChannels": 1,
+    "maxDifference": 1
+  },
+  "screenshots": [
+    {
+      "time": 18.9,
+      "ratio": "9:16",
+      "file": "output/checks/v8-danmaku/ranking-9x16.png"
+    },
+    {
+      "time": 18.9,
+      "ratio": "9:18",
+      "file": "output/checks/v8-danmaku/ranking-9x18.png"
+    },
+    {
+      "time": 18.9,
+      "ratio": "9:19.5",
+      "file": "output/checks/v8-danmaku/ranking-9x19.5.png"
+    },
+    {
+      "time": 18.9,
+      "ratio": "9:20",
+      "file": "output/checks/v8-danmaku/ranking-9x20.png"
+    },
+    {
+      "time": 18.9,
+      "ratio": "9:21",
+      "file": "output/checks/v8-danmaku/ranking-9x21.png"
+    },
+    {
+      "time": 21.8,
+      "ratio": "9:16",
+      "file": "output/checks/v8-danmaku/first-9x16.png"
+    },
+    {
+      "time": 21.8,
+      "ratio": "9:18",
+      "file": "output/checks/v8-danmaku/first-9x18.png"
+    },
+    {
+      "time": 21.8,
+      "ratio": "9:19.5",
+      "file": "output/checks/v8-danmaku/first-9x19.5.png"
+    },
+    {
+      "time": 21.8,
+      "ratio": "9:20",
+      "file": "output/checks/v8-danmaku/first-9x20.png"
+    },
+    {
+      "time": 21.8,
+      "ratio": "9:21",
+      "file": "output/checks/v8-danmaku/first-9x21.png"
+    },
+    {
+      "time": 24.8,
+      "ratio": "9:16",
+      "file": "output/checks/v8-danmaku/middle-9x16.png"
+    },
+    {
+      "time": 24.8,
+      "ratio": "9:18",
+      "file": "output/checks/v8-danmaku/middle-9x18.png"
+    },
+    {
+      "time": 24.8,
+      "ratio": "9:19.5",
+      "file": "output/checks/v8-danmaku/middle-9x19.5.png"
+    },
+    {
+      "time": 24.8,
+      "ratio": "9:20",
+      "file": "output/checks/v8-danmaku/middle-9x20.png"
+    },
+    {
+      "time": 24.8,
+      "ratio": "9:21",
+      "file": "output/checks/v8-danmaku/middle-9x21.png"
+    },
+    {
+      "time": 28.8,
+      "ratio": "9:16",
+      "file": "output/checks/v8-danmaku/last-9x16.png"
+    },
+    {
+      "time": 28.8,
+      "ratio": "9:18",
+      "file": "output/checks/v8-danmaku/last-9x18.png"
+    },
+    {
+      "time": 28.8,
+      "ratio": "9:19.5",
+      "file": "output/checks/v8-danmaku/last-9x19.5.png"
+    },
+    {
+      "time": 28.8,
+      "ratio": "9:20",
+      "file": "output/checks/v8-danmaku/last-9x20.png"
+    },
+    {
+      "time": 28.8,
+      "ratio": "9:21",
+      "file": "output/checks/v8-danmaku/last-9x21.png"
+    }
+  ],
+  "visualReview": "Pending visual inspection"
+}

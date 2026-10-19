@@ -1,0 +1,21 @@
+{
+  "conclusion": "出剪刀，试探对方未用过的手势并争取破平。",
+  "cost_usd": null,
+  "duration_ms": 14855,
+  "effort": "default",
+  "model": "bytedance-seed/seed-2-1-turbo",
+  "move": "剪刀",
+  "player_key": "doubao",
+  "raw_output": "{\"reason\":\"对 Gemini 两战皆平（石头-石头、布-布），对方未出剪刀。我后半程得分0，近8轮2胜2负4平。\",\"conclusion\":\"出剪刀，试探对方未用过的手势并争取破平。\",\"move\":\"剪刀\"}",
+  "reason": "对 Gemini 两战皆平（石头-石头、布-布），对方未出剪刀。我后半程得分0，近8轮2胜2负4平。",
+  "run_id": "agent_ed97ca63-494c-443f-873d-d1a95eaa0c58",
+  "session_id": "5ab1b111-bfea-4098-b69e-501199f4a0e1",
+  "status": "completed",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 38985,
+    "output_tokens": 317,
+    "total_tokens": 39302
+  }
+}

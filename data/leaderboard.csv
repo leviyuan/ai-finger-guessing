@@ -1,0 +1,13 @@
+﻿model_key,name,model,score,wins,losses,draws,rock,paper,scissors,consecutive_repeats
+glm,GLM,GLM-5.3,7,11,4,7,7,8,7,1
+meta,Meta,meta/muse-spark-1.2,5,9,4,9,7,8,7,0
+kimi,Kimi,kimi-k3,4,11,7,4,8,7,7,4
+gemini,Gemini,google/gemini-3.8-flash,2,8,6,8,5,8,9,2
+hunyuan,腾讯 HY4,tencent/hy4-preview,1,6,5,11,8,6,8,0
+gpt,GPT-6,gpt-6-astra,-1,7,8,7,16,3,3,11
+grok,Grok,grok-4.6,-1,6,7,9,3,9,10,5
+deepseek,DeepSeek,deepseek-flash,-2,7,9,6,8,8,6,4
+minimax,MiniMax,MiniMax-M3,-2,6,8,8,8,9,5,2
+doubao,豆包,bytedance-seed/seed-2-1-turbo,-3,5,8,9,8,8,6,1
+claude,Claude,claude-opus-5,-5,4,9,9,7,8,7,4
+qwen,Qwen,qwen3.8-max-0902,-5,3,8,11,6,9,7,2

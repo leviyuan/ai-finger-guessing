@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "official_rounds": 22,
+  "matches": 132,
+  "accepted_moves": 264,
+  "pairings": 66,
+  "meetings_per_pair": 2,
+  "related_calls": 287,
+  "calls_by_phase": {
+    "not_selected": 7,
+    "official": 264,
+    "review": 4,
+    "probe": 12
+  },
+  "verified_prompt_histories": 264,
+  "verified_raw_returns": 264,
+  "score_sum": 0,
+  "case_claims": 5,
+  "poster_pngs_1600x2000": 5,
+  "profile_svgs": 12,
+  "checked_markdown_links": 736,
+  "source_files_byte_preserved": 62,
+  "private_path_and_secret_pattern_scan": "passed"
+}

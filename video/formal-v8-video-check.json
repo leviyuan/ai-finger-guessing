@@ -1,0 +1,80 @@
+{
+  "verified_at": "2026-09-19T03:29:37.688080+00:00",
+  "version": "V8-变化弹幕",
+  "source": "data/formal-run-20260918-12x22",
+  "rounds": 22,
+  "matches": 132,
+  "model_turns": 264,
+  "new_model_calls": 0,
+  "gameplay_plan_unchanged": true,
+  "decode": "passed",
+  "width": 1440,
+  "height": 2560,
+  "fps": 30,
+  "frames": 1020,
+  "duration": 34.0,
+  "streams": [
+    {
+      "codec_type": "video",
+      "codec_name": "h264",
+      "width": 1440,
+      "height": 2560,
+      "duration": "34.000000",
+      "bit_rate": "3773468"
+    },
+    {
+      "codec_type": "audio",
+      "codec_name": "aac",
+      "sample_rate": "48000",
+      "channels": 2,
+      "duration": "34.000000",
+      "bit_rate": "26026"
+    }
+  ],
+  "danmaku": {
+    "count": 12,
+    "font_size_range": [
+      42,
+      60
+    ],
+    "speed_range": [
+      270,
+      450
+    ],
+    "y_range": [
+      680,
+      1290
+    ],
+    "directions": [
+      -1,
+      1
+    ],
+    "all_messages_complete_by": 29.97272727272727,
+    "minimum_gap_px": null,
+    "browser_check": "data/formal-v8-browser-check.json"
+  },
+  "audio": {
+    "source": "Original reveal hits only",
+    "reveal_hits": 22,
+    "master_nonzero_samples_outside_hits": 0,
+    "decoded_peak_between_hits": 0.0,
+    "decoded_ranking_peak": 0.0,
+    "wind_noise": false,
+    "rotation_swishes": false,
+    "ending_chime": false
+  },
+  "artifacts": {
+    "output/rps-carousel-v8-varied-danmaku-2k.mp4": {
+      "bytes": 16183491,
+      "sha256": "3c392d2f2a8ebbe10bc90d476bd443447a82d017b305d08fd34099fe38346c3e"
+    },
+    "output/rps-carousel-v8-varied-danmaku.html": {
+      "bytes": 103435,
+      "sha256": "40123a94efec88891610c7aee4b941041e9b927a3c0ca5eea2061e86131e662e"
+    },
+    "output/rps-carousel-v8-varied-danmaku.wav": {
+      "bytes": 9792044,
+      "sha256": "a658427952aba483a66e0bb0240e08341c38f5c7141aed150edba6ae27180def"
+    }
+  }
+}

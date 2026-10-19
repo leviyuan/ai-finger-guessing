@@ -1,0 +1,21 @@
+{
+  "conclusion": "保持高熵无重复随机策略",
+  "cost_usd": null,
+  "duration_ms": 8782,
+  "effort": "xhigh",
+  "model": "meta/muse-spark-1.2",
+  "move": "布",
+  "player_key": "meta",
+  "raw_output": "{\"reason\":\"我22轮熵0.998重复0.0石头7布8剪刀7均衡，Qwen排名12分-5对我1胜1平，后半程5胜0负6平。\",\"conclusion\":\"保持高熵无重复随机策略\",\"move\":\"布\"}",
+  "reason": "我22轮熵0.998重复0.0石头7布8剪刀7均衡，Qwen排名12分-5对我1胜1平，后半程5胜0负6平。",
+  "run_id": "agent_4082afba-f5da-498d-b1a7-e57838da6749",
+  "session_id": "42c0a4c0-6a6c-4139-9410-1cec2d75ffb9",
+  "status": "completed",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 42261,
+    "output_tokens": 593,
+    "total_tokens": 42854
+  }
+}

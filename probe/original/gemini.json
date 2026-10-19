@@ -1,0 +1,21 @@
+{
+  "conclusion": "打破既往平局，出剪刀主动求变。",
+  "cost_usd": null,
+  "duration_ms": 11910,
+  "effort": "high",
+  "model": "google/gemini-3.8-flash",
+  "move": "剪刀",
+  "player_key": "gemini",
+  "raw_output": "{\"reason\":\"历史与豆包交手两次皆平局（第1轮对手出石头平、第12轮对手出布平），全场统计显示我出剪刀最多达9次。\",\"conclusion\":\"打破既往平局，出剪刀主动求变。\",\"move\":\"剪刀\"}",
+  "reason": "历史与豆包交手两次皆平局（第1轮对手出石头平、第12轮对手出布平），全场统计显示我出剪刀最多达9次。",
+  "run_id": "agent_66037cab-6b5d-4fc8-a3af-b56c16a22c0d",
+  "session_id": "5b5b54f8-6ddd-471c-bd43-fb9625fd428a",
+  "status": "completed",
+  "usage": {
+    "cache_creation_input_tokens": 33366,
+    "cache_read_input_tokens": 33366,
+    "input_tokens": 0,
+    "output_tokens": 762,
+    "total_tokens": 67494
+  }
+}

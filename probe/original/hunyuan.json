@@ -1,0 +1,21 @@
+{
+  "conclusion": "保持不重复节奏，出剪刀求主动。",
+  "cost_usd": null,
+  "duration_ms": 12633,
+  "effort": "high",
+  "model": "tencent/hy4-preview",
+  "move": "剪刀",
+  "player_key": "hunyuan",
+  "raw_output": "{\"reason\":\"DeepSeek 净胜-2排第8；我 repeat_rate 为 0，上轮出布，故不出布，选剪刀压其可能的布。\",\"conclusion\":\"保持不重复节奏，出剪刀求主动。\",\"move\":\"剪刀\"}",
+  "reason": "DeepSeek 净胜-2排第8；我 repeat_rate 为 0，上轮出布，故不出布，选剪刀压其可能的布。",
+  "run_id": "agent_a0d98876-105f-44fa-bf73-efcdca688b55",
+  "session_id": "ab6c4a7a-6154-4699-8c74-f63e2c30a467",
+  "status": "completed",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 34924,
+    "output_tokens": 269,
+    "total_tokens": 35193
+  }
+}

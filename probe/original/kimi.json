@@ -1,0 +1,21 @@
+{
+  "conclusion": "布对我战绩最佳，继续用布。",
+  "cost_usd": null,
+  "duration_ms": 13750,
+  "effort": "high",
+  "model": "kimi-k3",
+  "move": "布",
+  "player_key": "kimi",
+  "raw_output": "{\"reason\":\"与GLM两次交手：第1轮我石头胜其剪刀，第12轮我布平其布；其全场11胜排第一，出招不明，选近期旺的布。\",\"conclusion\":\"布对我战绩最佳，继续用布。\",\"move\":\"布\"}",
+  "reason": "与GLM两次交手：第1轮我石头胜其剪刀，第12轮我布平其布；其全场11胜排第一，出招不明，选近期旺的布。",
+  "run_id": "agent_8cd21812-7177-48de-b47e-9b7d373983f2",
+  "session_id": "01a0b449-6dde-7d41-8823-1c27a09993a4",
+  "status": "completed",
+  "usage": {
+    "cache_read_input_tokens": 0,
+    "input_tokens": 19434,
+    "output_tokens": 191,
+    "reasoning_output_tokens": 58,
+    "total_tokens": 19625
+  }
+}

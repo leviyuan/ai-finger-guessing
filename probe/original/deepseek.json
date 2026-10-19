@@ -1,0 +1,21 @@
+{
+  "conclusion": "对手两度出石头，故以布应对。",
+  "cost_usd": null,
+  "duration_ms": 4708,
+  "effort": "max",
+  "model": "deepseek-flash",
+  "move": "布",
+  "player_key": "deepseek",
+  "raw_output": "{\"reason\":\"与腾讯 HY4 两次交手（第1轮平、第12轮胜）其均出石头，偏好集中；我全场布8次为最高频手。\",\"conclusion\":\"对手两度出石头，故以布应对。\",\"move\":\"布\"}",
+  "reason": "与腾讯 HY4 两次交手（第1轮平、第12轮胜）其均出石头，偏好集中；我全场布8次为最高频手。",
+  "run_id": "agent_caf23ea6-dfd9-4900-b603-db408821af94",
+  "session_id": "79737ad4-7795-45c8-89e8-488056831537",
+  "status": "completed",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 18560,
+    "input_tokens": 15025,
+    "output_tokens": 281,
+    "total_tokens": 33866
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "final_scores": {
+    "claude": -5,
+    "deepseek": -2,
+    "doubao": -3,
+    "gemini": 2,
+    "glm": 7,
+    "gpt": -1,
+    "grok": -1,
+    "hunyuan": 1,
+    "kimi": 4,
+    "meta": 5,
+    "minimax": -2,
+    "qwen": -5
+  },
+  "generated_at": "2026-09-18T11:38:30.156677+00:00",
+  "matches": 132,
+  "model_turns": 264,
+  "ranking": [
+    {
+      "draws": 7,
+      "losses": 4,
+      "name": "GLM-5.3",
+      "player_key": "glm",
+      "rank": 1,
+      "score": 7,
+      "wins": 11
+    },
+    {
+      "draws": 9,
+      "losses": 4,
+      "name": "Meta Muse Spark 1.2",
+      "player_key": "meta",
+      "rank": 2,
+      "score": 5,
+      "wins": 9
+    },
+    {
+      "draws": 4,
+      "losses": 7,
+      "name": "Kimi K3",
+      "player_key": "kimi",
+      "rank": 3,
+      "score": 4,
+      "wins": 11
+    },
+    {
+      "draws": 8,
+      "losses": 6,
+      "name": "Gemini 3.8 Flash",
+      "player_key": "gemini",
+      "rank": 4,
+      "score": 2,
+      "wins": 8
+    },
+    {
+      "draws": 11,
+      "losses": 5,
+      "name": "腾讯 HY4 Preview",
+      "player_key": "hunyuan",
+      "rank": 5,
+      "score": 1,
+      "wins": 6
+    },
+    {
+      "draws": 7,
+      "losses": 8,
+      "name": "GPT-6 Astra",
+      "player_key": "gpt",
+      "rank": 6,
+      "score": -1,
+      "wins": 7
+    },
+    {
+      "draws": 9,
+      "losses": 7,
+      "name": "Grok 4.6",
+      "player_key": "grok",
+      "rank": 7,
+      "score": -1,
+      "wins": 6
+    },
+    {
+      "draws": 6,
+      "losses": 9,
+      "name": "DeepSeek V4.1 Flash",
+      "player_key": "deepseek",
+      "rank": 8,
+      "score": -2,
+      "wins": 7
+    },
+    {
+      "draws": 8,
+      "losses": 8,
+      "name": "MiniMax M3",
+      "player_key": "minimax",
+      "rank": 9,
+      "score": -2,
+      "wins": 6
+    },
+    {
+      "draws": 9,
+      "losses": 8,
+      "name": "豆包 Seed 2.1 Turbo",
+      "player_key": "doubao",
+      "rank": 10,
+      "score": -3,
+      "wins": 5
+    },
+    {
+      "draws": 9,
+      "losses": 9,
+      "name": "Claude Opus 5",
+      "player_key": "claude",
+      "rank": 11,
+      "score": -5,
+      "wins": 4
+    },
+    {
+      "draws": 11,
+      "losses": 8,
+      "name": "Qwen 3.8 Max",
+      "player_key": "qwen",
+      "rank": 12,
+      "score": -5,
+      "wins": 3
+    }
+  ],
+  "rounds": 22,
+  "run_id": "formal-run-20260918-12x22",
+  "zero_sum_each_round": true
+}

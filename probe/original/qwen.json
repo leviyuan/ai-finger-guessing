@@ -1,0 +1,21 @@
+{
+  "conclusion": "对无偏对手停止反预测,改用历史最优固定手。",
+  "cost_usd": null,
+  "duration_ms": 21897,
+  "effort": "xhigh",
+  "model": "qwen3.8-max-0902",
+  "move": "石头",
+  "player_key": "qwen",
+  "raw_output": "{\"reason\":\"Meta出拳均匀(石7/布8/剪7,熵0.998)无可剥削偏向;我的反预测规则后半0胜6负;石头是我固定手最高得分+2,布近期被剪刀吃3次。\",\"conclusion\":\"对无偏对手停止反预测,改用历史最优固定手。\",\"move\":\"石头\"}",
+  "reason": "Meta出拳均匀(石7/布8/剪7,熵0.998)无可剥削偏向;我的反预测规则后半0胜6负;石头是我固定手最高得分+2,布近期被剪刀吃3次。",
+  "run_id": "agent_b4398b23-3b24-46ac-bb9f-8907da739e7e",
+  "session_id": "221f85e3-ed3b-4bbf-898b-15669251e2fe",
+  "status": "completed",
+  "usage": {
+    "cache_creation_input_tokens": 51568,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 6,
+    "output_tokens": 683,
+    "total_tokens": 52257
+  }
+}

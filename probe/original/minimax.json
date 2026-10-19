@@ -1,0 +1,21 @@
+{
+  "conclusion": "出剪刀，追 best_fixed 收益。",
+  "cost_usd": null,
+  "duration_ms": 7297,
+  "effort": "default",
+  "model": "MiniMax-M3",
+  "move": "剪刀",
+  "player_key": "minimax",
+  "raw_output": "{\"reason\":\"我 best_fixed=剪刀(+2)，实际仅 -2；近 8 轮 4 胜 1负 3 平略回暖；对 Grok 历史 1 胜 1 平。\",\"conclusion\":\"出剪刀，追 best_fixed 收益。\",\"move\":\"剪刀\"}",
+  "reason": "我 best_fixed=剪刀(+2)，实际仅 -2；近 8 轮 4 胜 1负 3 平略回暖；对 Grok 历史 1 胜 1 平。",
+  "run_id": "agent_1a11ef40-26b3-4371-8b15-c2e1946fff02",
+  "session_id": "1fa6651e-45d7-46ab-a262-1096918a04da",
+  "status": "completed",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 128,
+    "input_tokens": 37975,
+    "output_tokens": 372,
+    "total_tokens": 38475
+  }
+}

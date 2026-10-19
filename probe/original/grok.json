@@ -1,0 +1,21 @@
+{
+  "conclusion": "选布，克近期高频石头。",
+  "cost_usd": null,
+  "duration_ms": 23025,
+  "effort": "high",
+  "model": "grok-4.6",
+  "move": "布",
+  "player_key": "grok",
+  "raw_output": "{\"reason\":\"对MiniMax：第1轮剪刀负石头，第12轮布平布。我全场最优固定手是布(+1)。近8轮对手石头5、剪刀3、布0。\",\"conclusion\":\"选布，克近期高频石头。\",\"move\":\"布\"}",
+  "reason": "对MiniMax：第1轮剪刀负石头，第12轮布平布。我全场最优固定手是布(+1)。近8轮对手石头5、剪刀3、布0。",
+  "run_id": "agent_a65f4ed0-3061-43c7-8bc3-4c41397d463f",
+  "session_id": "01a0b2d7-2bf2-7632-9f06-6257a801ec7a",
+  "status": "completed",
+  "usage": {
+    "cache_read_input_tokens": 0,
+    "input_tokens": 46571,
+    "output_tokens": 914,
+    "reasoning_output_tokens": 850,
+    "total_tokens": 47485
+  }
+}

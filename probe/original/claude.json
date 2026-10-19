@@ -1,0 +1,21 @@
+{
+  "conclusion": "押它已知的石头倾向，出布。",
+  "cost_usd": null,
+  "duration_ms": 9415,
+  "effort": "high",
+  "model": "claude-opus-5",
+  "move": "布",
+  "player_key": "claude",
+  "raw_output": "{\"reason\":\"GPT-6 全场石头16/22、熵0.705、重复率0.524，是场上偏差最大的一家；我对它两战出石头平、出布胜，累计+1。\",\"conclusion\":\"押它已知的石头倾向，出布。\",\"move\":\"布\"}",
+  "reason": "GPT-6 全场石头16/22、熵0.705、重复率0.524，是场上偏差最大的一家；我对它两战出石头平、出布胜，累计+1。",
+  "run_id": "agent_50e5b9cc-d573-4e1d-ac34-08f6db447f1e",
+  "session_id": "9037fa1e-ef55-48b2-8064-473a6fcbf40e",
+  "status": "completed",
+  "usage": {
+    "cache_creation_input_tokens": 66531,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 2,
+    "output_tokens": 95,
+    "total_tokens": 66628
+  }
+}

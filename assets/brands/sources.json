@@ -1,0 +1,123 @@
+[
+  {
+    "brand": "qwen",
+    "official_identity": "https://qwen.ai/",
+    "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/a94750e3f5f8fc33757b839d85030e742284e43a/packages/static-svg/icons/qwen-color.svg",
+    "revision": "a94750e3f5f8fc33757b839d85030e742284e43a",
+    "file": "qwen.svg",
+    "sha256": "77f5768c66d08ce1d3d14e73373975c1bc0454be88c81523ddd0ffd7e2974029",
+    "license": "MIT",
+    "geometry_modified": false
+  },
+  {
+    "brand": "yuanbao",
+    "official_identity": "https://yuanbao.tencent.com/",
+    "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/a94750e3f5f8fc33757b839d85030e742284e43a/packages/static-svg/icons/yuanbao-color.svg",
+    "revision": "a94750e3f5f8fc33757b839d85030e742284e43a",
+    "file": "yuanbao.svg",
+    "sha256": "522b9c3ee6f4136b3dd2f5e844a2273b6d599ae614329dbcaf96c74375b0fdd5",
+    "license": "MIT",
+    "geometry_modified": false
+  },
+  {
+    "brand": "openai",
+    "official_identity": "https://openai.com/",
+    "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/a94750e3f5f8fc33757b839d85030e742284e43a/packages/static-svg/icons/openai.svg",
+    "revision": "a94750e3f5f8fc33757b839d85030e742284e43a",
+    "file": "openai.svg",
+    "sha256": "a595df6b423920c67a7f8f73c063e4bfb72d415948097b6cac063a2366bb5186",
+    "license": "MIT",
+    "geometry_modified": false
+  },
+  {
+    "brand": "deepseek",
+    "official_identity": "https://www.deepseek.com/",
+    "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/a94750e3f5f8fc33757b839d85030e742284e43a/packages/static-svg/icons/deepseek-color.svg",
+    "revision": "a94750e3f5f8fc33757b839d85030e742284e43a",
+    "file": "deepseek.svg",
+    "sha256": "deba5f98a5c1796e20fcac3149bcd7eb8a32f0bdd04d048819400b1f28bd1439",
+    "license": "MIT",
+    "geometry_modified": false
+  },
+  {
+    "brand": "kimi",
+    "official_identity": "https://www.kimi.com/",
+    "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/a94750e3f5f8fc33757b839d85030e742284e43a/packages/static-svg/icons/kimi-color.svg",
+    "revision": "a94750e3f5f8fc33757b839d85030e742284e43a",
+    "file": "kimi.svg",
+    "sha256": "74a7292aeb0220445d14c5d397d75760e2e8c6ed6a9e5fe4f3023471bf62a9ff",
+    "license": "MIT",
+    "geometry_modified": false
+  },
+  {
+    "brand": "zai",
+    "official_identity": "https://z.ai/",
+    "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/a94750e3f5f8fc33757b839d85030e742284e43a/packages/static-svg/icons/zai.svg",
+    "revision": "a94750e3f5f8fc33757b839d85030e742284e43a",
+    "file": "zai.svg",
+    "sha256": "e748cb5108ce37b116d7a5ba97d37e0ae97eadf6849b0de11afb248e244a01e1",
+    "license": "MIT",
+    "geometry_modified": false
+  },
+  {
+    "brand": "google",
+    "official_identity": "https://www.google.com/",
+    "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/a94750e3f5f8fc33757b839d85030e742284e43a/packages/static-svg/icons/google-color.svg",
+    "revision": "a94750e3f5f8fc33757b839d85030e742284e43a",
+    "file": "google.svg",
+    "sha256": "4e6aa8892ef15a6b431f40f2c9045979bf7e2357524e7bbb89b353cf4f32a5ac",
+    "license": "MIT",
+    "geometry_modified": false
+  },
+  {
+    "brand": "minimax",
+    "official_identity": "https://www.minimax.io/",
+    "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/a94750e3f5f8fc33757b839d85030e742284e43a/packages/static-svg/icons/minimax-color.svg",
+    "revision": "a94750e3f5f8fc33757b839d85030e742284e43a",
+    "file": "minimax.svg",
+    "sha256": "7f7187fa6d9b341ac5f22f6c5a970523afb439dc45566d64eb4f4b9b604d6b01",
+    "license": "MIT",
+    "geometry_modified": false
+  },
+  {
+    "brand": "xai",
+    "file": "xai.svg",
+    "sha256": "dcc57aafd110d9a725b2a8c3b3d1a710047d263c991ee78beec80fd336f511af",
+    "copied_from": "projects/werewolf/videos/015-ai-werewolf/assets/logos-v3/xai.svg",
+    "source_record": "projects/werewolf/videos/015-ai-werewolf/assets/logos-v3/sources.json",
+    "license": "MIT; see assets/brands/LICENSE",
+    "geometry_modified": false
+  },
+  {
+    "brand": "meta",
+    "file": "meta.svg",
+    "sha256": "e24774fff38fc507bd2ef54eea0a53312f96c7a626a2c0253bcfd7860c1dcf9f",
+    "copied_from": "projects/werewolf/videos/015-ai-werewolf/assets/logos-v3/meta.svg",
+    "source_record": "projects/werewolf/videos/015-ai-werewolf/assets/logos-v3/sources.json",
+    "license": "MIT; see assets/brands/LICENSE",
+    "geometry_modified": false
+  },
+  {
+    "brand": "doubao",
+    "display_name": "豆包",
+    "file": "doubao-female.jpg",
+    "official_identity": "https://apps.apple.com/cn/app/%E8%B1%86%E5%8C%85-%E9%9A%8F%E6%97%B6%E5%B8%AE%E5%BF%99%E7%9A%84-ai-%E5%8A%A9%E6%89%8B/id6459478672?uo=4",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9e/4e/39/9e4e3984-2fd4-b6c8-cfe8-f5de2382a68a/AppIcon-0-0-1x_U007epad-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+    "sha256": "ac84fc5969acea4ae45d028743e2e4c0a055c81f3d623e1e6d82388a684de7f8",
+    "source_record": "doubao-source.json",
+    "license": "Official product app icon; brand-identification use, not included in the LobeHub MIT license.",
+    "geometry_modified": false,
+    "user_direction": "Global replacement of ByteDance corporate marks for AI model seats."
+  },
+  {
+    "brand": "claude",
+    "official_identity": "https://claude.com/",
+    "url": "https://raw.githubusercontent.com/lobehub/lobe-icons/a94750e3f5f8fc33757b839d85030e742284e43a/packages/static-svg/icons/claude-color.svg",
+    "revision": "a94750e3f5f8fc33757b839d85030e742284e43a",
+    "file": "claude.svg",
+    "sha256": "a3101f3047a119aa11825ad9369510f0c472428c8c52d420e31bc62db44a8364",
+    "license": "MIT representation from LobeHub; underlying brand marks identify their owners",
+    "geometry_modified": false,
+    "use": "Product identity in integration/support diagrams, not official endorsement"
+  }
+]
